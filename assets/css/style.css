@@ -17,8 +17,8 @@
     opacity: 85%;
 }
 
-ul {
-    display: inline;
+a:hover {
+    text-decoration: none;
 }
 
 .col-md-8 {
@@ -64,11 +64,6 @@ span {
     color: #0F827B;
 }
 
-.pages-writing:hover {
-    background: #0F827B;
-    color: #00FFF0;
-}
-
 .navbar-toggler {
     color: #0F827B;
     background-color: #fafafa;
@@ -87,6 +82,9 @@ span {
 
 #sign-up:hover {
     background-color: #0F827B;
+}
+
+#sign-up:hover span {
     color: #00FFF0;
 }
 
@@ -95,6 +93,10 @@ span {
     height: 90px;
     padding: 1em;
     font-size: 24px;
+}
+
+#stories:hover span {
+    color: #00FFF0;
 }
 
 #stories:hover {
@@ -114,6 +116,10 @@ span {
     color: #00FFF0;
 }
 
+#classes:hover span {
+    color: #00FFF0;
+}
+
 #benefits {
     background-color: #A6FFFA;
     height: 90px;
@@ -126,6 +132,10 @@ span {
     color: #00FFF0;
 }
 
+#benefits:hover span {
+    color: #00FFF0;
+}
+
 #home {
     background-color: #CCFFFC;
     height: 90px;
@@ -135,6 +145,10 @@ span {
 
 #home:hover {
     background-color: #0F827B;
+    color: #00FFF0;
+}
+
+#home:hover span {
     color: #00FFF0;
 }
 
@@ -203,17 +217,39 @@ h2 {
 /*SIGN UP PAGE*/
 
 #signup-hero-image {
-    height: 2000px;
+    height: 1800px;
     width: 100%;
-    background: url('/assets/images/50percent.jpeg') no-repeat center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    background: url('/assets/images/40percent.jpeg') no-repeat center center;
 }
   
 #signup-hero-outer {
-    height: 2000px;
+    height: 1600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
+/*FOOTER*/
+
+footer {
+    background-color: #fafafa;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+
+  .social-networks li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 30px 5%;
+    color: #0F827B;
+  }
+
+  footer p {
+    padding-bottom: 50px;
+  }
