@@ -143,7 +143,7 @@ span {
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('/assets/images/72percent.jpeg') no-repeat center center;
+    background: url('/assets/images/69percent.jpeg') no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -198,4 +198,22 @@ h2 {
 #cover-text-button:hover {
     background-color: #0F827B;
     color: #00FFF0;
+}
+
+/*SIGN UP PAGE*/
+
+#signup-hero-image {
+    height: 2000px;
+    width: 100%;
+    background: url('/assets/images/50percent.jpeg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+  
+#signup-hero-outer {
+    height: 2000px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
