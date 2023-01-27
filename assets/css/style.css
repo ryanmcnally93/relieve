@@ -1,6 +1,16 @@
 .logo {
     float: left;
-    font-size: 280%;
+    font-size: 64;
     margin-left: 30px;
     color: #29BDB4;
+    text-decoration: none;
+    display: inline;
+}
+
+#e {
+    color: #5B905A;
+}
+
+.list-inline-bottom {
+    text-decoration: none;
 }
