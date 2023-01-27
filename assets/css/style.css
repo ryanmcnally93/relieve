@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
+/*HEADER*/
+
 .logo {
     float: left;
     color: #29BDB4;
@@ -10,10 +12,20 @@
     border-radius: 25px;
     width: 390px;
     height: 90px;
-    margin: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h2 {
+ul {
+    display: inline;
+}
+
+.col-md-8 {
+    max-width: none;
+    flex: none;
+}
+
+#logo {
     font-weight: 500;
     text-align: center;
     font-size: 64px;
@@ -30,23 +42,40 @@ h2 {
     font-weight: 500;
 }
 
-.list-inline-bottom {
+.pages {
     text-decoration: none;
     float: right;
     border-radius: 25px;
     text-align: center;
-    width: 185px;
+    width: 165px;
     height: 90px;
-    margin: 10px 10px;
     font-weight: 500;
     font-size: 32px;
+    margin: 10px 10px;
+}
+
+.navbar {
+    padding: 0;
+    float: right;
+}
+
+span {
+    color: #0F827B;
+}
+
+.navbar-toggler {
+    color: #0F827B;
+    background-color: #fafafa;
+    padding: 1rem 2rem;
+    height: 90px;
+    margin: 10px 10px;
+    border-radius: 25px;
 }
 
 #sign-up {
     background-color: #00FFF0;
     height: 90px;
     padding-top: 14.5px;
-    color: #0F827B;
 }
 
 #stories {
@@ -72,3 +101,49 @@ h2 {
     height: 90px;
     padding-top: 14.5px;
 }
+
+/*SECTION ONE HERO IMAGE*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('/assets/images/resized.jpeg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  #hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  @keyframes hero-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
+  #cover-text, #cover-text h2 {
+    color: #fafafa;
+  }
+  
+  #cover-text {
+    width: 300px;
+    height: 200px;
+    padding: 20px 20px;
+    background-color: #0F827B;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+  }

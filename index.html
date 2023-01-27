@@ -12,32 +12,46 @@
 <body>
     <header>
         <!-- whole header div -->
-        <div>
-            <a class="logo" href="index.html">
-                <h2>Reli<strong id="e">e</strong>ve</h2>
+        <div class="row no-gutters fixed-top navbar-expand-lg navbar-light">
+            <a class="logo col-md-4" href="index.html">
+                <h2 id="logo">Reli<strong id="e">e</strong>ve</h2>
             </a>
-        <!-- div for all the links (no gutters?) second one is for col? -->
-            <div>
-                <div>
-                    <navbar>
-                        <ul class="list-inline">
-                            <li class="list-inline-bottom" id="sign-up">
-                                <a href="index.html"><span id="clown">Sign Up</span></a></li>
-                            <li class="list-inline-bottom" id="stories">
-                                <a href="#"><span>Stories</span></a></li>
-                            <li class="list-inline-bottom" id="classes">
-                                <a href="#"><span>Classes</span></a></li>
-                            <li class="list-inline-bottom" id="benefits">
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- div for all the links -->
+                <div class="col-md-8">
+                    <nav class="navbar">
+                        <ul class="list-inline navbar-nav">
+                            <li class="pages active nav-item" id="home">
+                                <a href="index.html"><span>Home</span></a></li>
+                            <li class="pages nav-item" id="benefits">
                                 <a href="#"><span>Benefits</span></a></li>
-                            <li class="list-inline-bottom" id="home">
-                                <a href="#"><span>Home</span></a></li>
+                            <li class="pages nav-item" id="classes">
+                                <a href="#"><span>Classes</span></a></li>
+                            <li class="pages nav-item" id="stories">
+                                <a href="#"><span>Stories</span></a></li>
+                            <li class="pages nav-item" id="sign-up">
+                                <a href="#"><span>Sign Up</span></a></li>
                         </ul>
-                    </navbar>
-                </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
-    <section></section>
+    <section id="hero-outer">
+        <div id="hero-image"></div>
+        <div id="cover-text">
+          <h2>Join in with the many people taking on Mental Health and gaining control of their life!</h2>
+          <button href="#">Sign Up</button>
+        </div>
+    </section>
     <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
