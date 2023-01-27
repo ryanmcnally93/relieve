@@ -1,16 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
+
 .logo {
     float: left;
-    font-size: 64;
-    margin-left: 30px;
     color: #29BDB4;
     text-decoration: none;
     display: inline;
+    font-family: "Exo", sans-serif;
+    background-color: #fafafa;
+    border-radius: 25px;
+    width: 390px;
+    height: 90px;
+    margin: 10px 10px;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 64px;
+    margin-top: 6.5px;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: #5B905A;
 }
 
 #e {
     color: #5B905A;
+    font-weight: 500;
 }
 
 .list-inline-bottom {
     text-decoration: none;
+    float: right;
+    border-radius: 25px;
+    text-align: center;
+    width: 185px;
+    height: 90px;
+    margin: 10px 10px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+#sign-up {
+    background-color: #00FFF0;
+    height: 90px;
+    padding-top: 14.5px;
+    color: #0F827B;
+}
+
+#stories {
+    background-color: #37FFF3;
+    height: 90px;
+    padding-top: 14.5px;
+}
+
+#classes {
+    background-color: #8FFFF8;
+    height: 90px;
+    padding-top: 14.5px;
+}
+
+#benefits {
+    background-color: #A6FFFA;
+    height: 90px;
+    padding-top: 14.5px;
+}
+
+#home {
+    background-color: #CCFFFC;
+    height: 90px;
+    padding-top: 14.5px;
 }
