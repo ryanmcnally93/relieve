@@ -13,39 +13,42 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Stuff
+  - The main navigation bar uses the websites main colour in different shades from left to right to signal different pages and look more stylish.
+  - It is responsive, it condenses into a burger icon as the webpage is made smaller for tablets and phone devices.
+  - The Navbar also responds by changing background and text colour as the user hovers over each page option.
 
 NAVBAR IMAGE
 
 - __Footer__
 
-  - Social Links
+  - The footer includes links to the websites main social media links, I have included the most commonly used Facebook, Twitter, YouTube and Instagram whilst also including TikTok, as this site could promote short promotional videos of meditation on there.
 
-  - Other Information
+  - I have also provided information about where the business is based, this will help with the SEO of the website, as people who live in Lichfield, Staffordshire are more likely to find this page.
 
 IMAGE OF FOOTER
 
 - __Logo__
 
-  - Stuff
+  - The idea for the logo was to make the middle "e" a different colour son that it could be read in two different ways. Relieve and Re-Live.
+  - Since the company is focused on empowering people, it made sense to include the idea of restarting your life with a clean slate or, re-living.
 
 IMAGE OF LOGO
 
 - __The landing page hero image__
 
-  - Stuff
+  - I wanted an image that was both happy and focused on meditation, the one I have found I think is brilliant because there is also a pregnant woman in the background, which represents inclusion.
 
 LANDING PAGE IMAGE
 
 - __Who we are section__
 
-  - Stuff
+  - This section is a brief overview of the whole site, once the user views this they have more knowledge of what this site is to be used for.
 
 PICTURE OF SECTION
 
 - __Benefits__
 
-  - Hero Image
+  - The hero image of this website is ...
   - Benefits themselves
 
 PICTURE
@@ -150,6 +153,3 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
