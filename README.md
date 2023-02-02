@@ -91,13 +91,22 @@ LOOK INTO
 
 - The first image is a positive meditation one, almost putting the user directly into the class.
 - The Sign Up page image is an adventurous one, which represents the user moving forward with their life or doing something "out there". It also adds a sense of freedom.
-- The images of the tutors give familiarity to the user, which halps them find a safe space.
+- The images of the tutors give familiarity to the user, which helps them find a safe space.
 
 ### Wireframes
 
 These wireframes were created using Balsamiq:
 
-[Relieve | Re-Live: Wireframe](Project%201.bmpr)
+[Homepage](assets/images/homepage-wireframe.png)
+
+[Benefits](assets/images/benefits-wireframe.png)
+
+[Classes](assets/images/classes-wireframe.png)
+
+[Stories](assets/images/stories-wireframe.png)
+
+[Sign Up](assets/images/sign-up-wireframe.png)
+
 
 ### Q and A of Potential Users
 
