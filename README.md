@@ -156,7 +156,17 @@ Too much written again, a bit too much information on each page. If you click on
 
 ### Roadmap
 
-TO DO
+This roadmap indicates the importance and viability of specific opportunities.
+
+| Opportunities/Problems      | Importance | Viability   |
+| ----------- | ----------- | ----------- |
+| Teach users how to stop a panic attack      | 5       | 4
+| Encourage them to sign uo to newsletter   | 4        | 5
+| Encourage them to interact with classes   | 5        | 4
+| Showcase images from classes   | 1        | 1
+| Show them positive feedback from other users   | 4        | 1
+
+As mentioned before, the stories page isn't neccessary just yet as we don't have previous users feedback to use yet. So that and images from classes aren't necessary yet.
 
 ## Features 
 
@@ -284,10 +294,28 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Fixed Bugs
 
-TO DO
+/* animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; */
 
-- Sizing of logo and navbar in height, halved.
-- Hero image sizing, resized (site) https://www.simpleimageresizer.com/upload
+    /*@keyframes hero-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}*/
+
+This is a detailed log of the issues I ran into whilst coding my first project, and how I overcame them.
+
+1). The first real issue I detected during the prototype stage. Everything looked great small but on a big screen the navbar and hero image wouldn't have even fit on the page due to size. I had my dimensions correct for everything to fit, but they took up every inch of space.
+
+I fixed this by halving the height of the navbar and logo, and everything began to fit on the screen as it should.
+
+2). The next issue I ran into was the loading page hero image. The original size was over 5000 pixels in width and 3000 in height, I had to scale it down without losing any of the quality.
+
+I did so by using https://www.simpleimageresizer.com/upload to resize the image, first at 75% its original size, this was too large. Then at 70%, which left gaps on either side.
 - Centering of writing in buttons
 - Social links not being in middle
 - Burger icon needed to be on middle screen as well as small

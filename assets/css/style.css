@@ -157,10 +157,7 @@ span {
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('/assets/images/69percent.jpeg') no-repeat center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    background: url('/assets/images/70percent.jpeg') no-repeat center center;
 }
   
 #hero-outer {
@@ -168,15 +165,7 @@ span {
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-  
-@keyframes hero-zoom {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.01);
-    }
+
 }
   
 #cover-text, #cover-text h2 {
