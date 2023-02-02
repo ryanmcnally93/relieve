@@ -43,20 +43,61 @@ Maybe the company could invest time into doing school presentations, to create b
 
 ### User Stories
 
-TO DO
+As someone who struggles with anxiety, I want:
+- Calming, spacious UX that isn't cluttered and therefore stressful
+- Peace enducing colours to subconsciously add to the sites serenity.
+- To learn a bit about why I feel the way I feel and how to get better
+- To know where my classes are and how to get there, so I feel safe
+
+As someone who struggles with depression, I want:
+- To know that I'm not alone, through images and tutor information
+- To be ensured that people gain happiness from the classes
+- Something that regularly makes me feel good as opposed to a one-time fix, something that stays with me for longer
+
+As a relative or friend of a struggler, I want:
+- To know where classes are and what times they are
+- To know that my friend/relative is going to have an educational but fun experience
+- To learn a bit myself so I can be of better help to my friend/relative
+
 
 ### Design Choices
 
-TO DO
+The overall experience needs to feel calm, decluttered and peaceful.
 
-Not too much information, so not stressful
-Colours that promote calm, blue and green, peace
+#### Fonts
 
-- Pictures used express freedom and calm; some are meditation itself. Written pieces are descriptive and accurately align with the pages they are on. Progress bars display information in a better looking way, and the iframes accurately tell the user where to go. Stories help people make an informed decision based on how other people felt.
+- The primary font "Exo" was chosen because it has a nice rounded edge to the lettering, there is nothing sharp that sticks out, adding to the calm feel.
+- The secondary font chosen is sans serif.
+
+#### Icons
+
+- All icons chosen are to describe the paragraph of text next to them, some have been taken out once viewed on a phone to help create space for the reading of the text.
+
+#### Colours
+
+LOOK INTO
+
+#### Styling
+
+- Divs have been given rounded edges to again add to that calming feeling, we dont want sharp and aggresive.
+- This edging and spacing between divs and sections has been made consistent throughout the pages and content.
+
+#### Backgrounds
+
+- Either hero images relevant to the page have been shown, white, or off-white (#FAFAFA) have been used.
+- This is so that the site is not too distracting from the content and not add to stress levels of the viewer.
+
+#### Images
+
+- The first image is a positive meditation one, almost putting the user directly into the class.
+- The Sign Up page image is an adventurous one, which represents the user moving forward with their life or doing something "out there". It also adds a sense of freedom.
+- The images of the tutors give familiarity to the user, which halps them find a safe space.
 
 ### Wireframes
 
-TO DO
+These wireframes were created using Balsamiq:
+
+[Relieve | Re-Live: Wireframe](Project%201.bmpr)
 
 ### Q and A of Potential Users
 
