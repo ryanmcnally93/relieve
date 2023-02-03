@@ -10,10 +10,9 @@
     font-family: "Exo", sans-serif;
     background-color: #fafafa;
     border-radius: 25px;
-    width: 390px;
+    width: 300px;
     height: 90px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     opacity: 85%;
 }
 
@@ -51,8 +50,8 @@ a:hover {
     width: 165px;
     height: 90px;
     font-weight: 500;
-    font-size: 32px;
     margin: 10px 10px;
+    font-family: "Exo", sans-serif;
 }
 
 .navbar {
@@ -61,11 +60,11 @@ a:hover {
 }
 
 span {
-    color: #0F827B;
+    color: #0C6A63;
 }
 
 .navbar-toggler {
-    color: #0F827B;
+    color: #0C6A63;
     background-color: #fafafa;
     padding: 1rem 2rem;
     height: 90px;
@@ -74,45 +73,29 @@ span {
 }
 
 #sign-up {
-    background-color: #00FFF0;
+    background-color: #C7FFF8;
     height: 90px;
     padding: 1em;
     font-size: 24px;
 }
 
 #sign-up:hover {
-    background-color: #0F827B;
+    background-color: #0C6A63;
 }
 
 #sign-up:hover span {
     color: #00FFF0;
 }
 
-#stories {
-    background-color: #37FFF3;
-    height: 90px;
-    padding: 1em;
-    font-size: 24px;
-}
-
-#stories:hover span {
-    color: #00FFF0;
-}
-
-#stories:hover {
-    background-color: #0F827B;
-    color: #00FFF0;
-}
-
 #classes {
-    background-color: #8FFFF8;
+    background-color: #C7FFF8;
     height: 90px;
     padding: 1em;
     font-size: 24px;
 }
 
 #classes:hover {
-    background-color: #0F827B;
+    background-color: #0C6A63;
     color: #00FFF0;
 }
 
@@ -121,14 +104,14 @@ span {
 }
 
 #benefits {
-    background-color: #A6FFFA;
+    background-color: #C7FFF8;
     height: 90px;
     padding: 1em;
     font-size: 24px;
 }
 
 #benefits:hover {
-    background-color: #0F827B;
+    background-color: #0C6A63;
     color: #00FFF0;
 }
 
@@ -137,14 +120,14 @@ span {
 }
 
 #home {
-    background-color: #CCFFFC;
+    background-color: #C7FFF8;
     height: 90px;
     padding: 1em;
     font-size: 24px;
 }
 
 #home:hover {
-    background-color: #0F827B;
+    background-color: #0C6A63;
     color: #00FFF0;
 }
 
@@ -152,38 +135,50 @@ span {
     color: #00FFF0;
 }
 
-/*SECTION ONE HERO IMAGE*/
+/*HERO IMAGE*/
 
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('/assets/images/70percent.jpeg') no-repeat center center;
+    background: url('/assets/images/68percent.jpeg') no-repeat center center;
     animation: none;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
   
 #hero-outer {
-    height: 700px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
+}
 
+@keyframes hero-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.01);
+    }
 }
   
 #cover-text, #cover-text h2 {
-    color: #0F827B;
+    color: #0C6A63;
 }
   
 #cover-text {
-    width: 300px;
+    width: 310px;
     height: 200px;
     padding: 20px 20px;
-    background-color: #CCFFFC;
+    background-color: #C7FFF8;
     bottom: 60px;
     right: 150px;
     position: absolute;
     text-align: center;
     opacity: 85%;
     border-radius: 25px;
+    font-family: "Exo", sans-serif;
 }
 
 h2 {
@@ -200,8 +195,47 @@ h2 {
 }
 
 #cover-text-button:hover {
-    background-color: #0F827B;
+    background-color: #0C6A63;
     color: #00FFF0;
+}
+
+/*WHO WE ARE*/
+
+.who-we-are {
+    background-color: #fafafa;
+    border-radius: 25px;
+    font-family: "Exo", sans-serif;
+    padding: 30px 0 50px 0;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    padding: 20px;
+}
+
+.icons i {
+    font-size: 32px;
+}
+
+#handshake {
+    padding: 80px 0;
+    margin-bottom: 0;
+    float: right;
+    margin-right: 25px;
+}
+
+#brain {
+    padding: 100px 0;
+    margin-bottom: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+.p-box {
+    padding: 20px 0;
+    font-size: 24px;
 }
 
 /*SIGN UP PAGE*/
@@ -223,23 +257,36 @@ h2 {
 
 footer {
     background-color: #fafafa;
-  }
+    border-radius: 25px;
+    margin: 20px;
+}
   
-  .social-networks {
+.social-networks {
     text-align: center;
-  }
+    padding: 0;
+}
 
-  .social-networks li {
+.social-networks li {
     display: inline;
-  }
+}
   
-  .social-networks i {
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 30px 5%;
-    color: #0F827B;
-  }
+    color: #29BDB4;
+}
 
-  footer p {
+.social-networks i:hover {
+    color: #0C6A63;
+}
+
+footer p {
     padding-bottom: 50px;
-  }
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+}
+
+footer p, footer ul {
+    margin-bottom: 0;
+}

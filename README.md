@@ -294,19 +294,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Fixed Bugs
 
-/* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
-
-    /*@keyframes hero-zoom {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.1);
-    }
-}*/
-
 This is a detailed log of the issues I ran into whilst coding my first project, and how I overcame them.
 
 1). The first real issue I detected during the prototype stage. Everything looked great small but on a big screen the navbar and hero image wouldn't have even fit on the page due to size. I had my dimensions correct for everything to fit, but they took up every inch of space.
@@ -315,11 +302,21 @@ I fixed this by halving the height of the navbar and logo, and everything began 
 
 2). The next issue I ran into was the loading page hero image. The original size was over 5000 pixels in width and 3000 in height, I had to scale it down without losing any of the quality.
 
-I did so by using https://www.simpleimageresizer.com/upload to resize the image, first at 75% its original size, this was too large. Then at 70%, which left gaps on either side.
-- Centering of writing in buttons
-- Social links not being in middle
-- Burger icon needed to be on middle screen as well as small
+I did so by using https://www.simpleimageresizer.com/upload to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 68% was the best fit for the webpage.
 
+3). I had issues when creating the navbar as the text inside the anchor elements were not being centered vertically, I fixed this by creating a span inside the anchor element for the text.
+
+4). Information on main page didn't seem enough for the page, also had issues with making it look central, with icons on the left but clear on the right.
+
+I first made the text and icons bigger and attempted to create some empty space on the page, adding to that calm feel we wanted. I created 3 columns within a row and gave the text the width of 6, I also added some bootstrap shortcut to get rid of the icons when the screen is phone sized, and gave the text some padding so it still sits within the section nicely.
+
+5). Padding left? Hero Image container false.
+
+6). Cant center the jumbletron.
+
+7). Navbar distracted by upscrolling page.
+
+8). Flexbox understanding.
 ### Unfixed Bugs
 
 <!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
@@ -338,16 +335,16 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-TO DO
-
 <!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. -->
 
 ### Content 
 
-- Any text or code and where, include hyperlinks
+- Most of the benefits page is outsourced information**
+- Footer content could be considered borrowed code from Love Running, with TikTok added and colour chaged and hover colour created.
 
 ### Media
 
-- The photos and where you got them from
+- Landing page hero image was taken from pexels.com, user name Gustavo Fring.
+- Sign up page hero image was taken from pexels.com, user name Hedenborg Ludvig.
