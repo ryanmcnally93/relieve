@@ -312,7 +312,9 @@ I first made the text and icons bigger and attempted to create some empty space 
 
 5). Padding left? Hero Image container false.
 
-6). Cant center the jumbletron.
+6). I had an issue centering the cover text box on the landing page hero image. I had a bottom and right measurement, which on phone screens, was pushing it to the left and wasn't central.
+
+I had to watch a few videos on flexbox and using it with bootstrap. I made the hero outer, which is the cover text's container, justify content centrally on small screen sizes. On larger screen sizes I made them position from the right, addding a right margin to the cover text box to push it away from the edge.
 
 7). Navbar distracted by upscrolling page.
 

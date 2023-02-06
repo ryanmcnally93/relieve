@@ -6,7 +6,6 @@
     float: left;
     color: #29BDB4;
     text-decoration: none;
-    display: inline;
     font-family: "Exo", sans-serif;
     background-color: #fafafa;
     border-radius: 25px;
@@ -135,16 +134,17 @@ span {
     color: #00FFF0;
 }
 
-/*HERO IMAGE*/
+/*HERO IMAGES*/
 
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('/assets/images/68percent.jpeg') no-repeat center center;
+    background: url('/assets/images/index-hero.jpeg') no-repeat center center;
     animation: none;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    position: absolute;
 }
   
 #hero-outer {
@@ -152,7 +152,41 @@ span {
     width: 100%;
     overflow: hidden;
     position: relative;
+    display: flex;
 }
+
+#benefits-hero-image {
+    height: 900px;
+    width: 100%;
+    background: url('/assets/images/benefits-hero.jpg') no-repeat center right;
+    animation: none;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+
+#benefits-hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+#signup-hero-image {
+    height: 900px;
+    width: 100%;
+    background: url('/assets/images/signup-hero.jpeg') no-repeat center center;
+}
+  
+#signup-hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 
 @keyframes hero-zoom {
     from {
@@ -165,6 +199,7 @@ span {
   
 #cover-text, #cover-text h2 {
     color: #0C6A63;
+    font-size: 24px;
 }
   
 #cover-text {
@@ -172,17 +207,13 @@ span {
     height: 200px;
     padding: 20px 20px;
     background-color: #C7FFF8;
-    bottom: 60px;
-    right: 150px;
-    position: absolute;
+    bottom: 50px;
     text-align: center;
     opacity: 85%;
     border-radius: 25px;
     font-family: "Exo", sans-serif;
-}
-
-h2 {
-    font-size: 24px;
+    position: absolute;
+    margin: 0px 40px;
 }
 
 #cover-text-button {
@@ -240,17 +271,72 @@ h1 {
 
 /*SIGN UP PAGE*/
 
-#signup-hero-image {
-    height: 1800px;
-    width: 100%;
-    background: url('/assets/images/40percent.jpeg') no-repeat center center;
+.signup-header {
+    background-color:rgba(250, 250, 250, 0.5);
+    border-radius: 25px;
+    font-family: "Exo", sans-serif;
+    width: 800px;
+    margin: auto;
 }
-  
-#signup-hero-outer {
-    height: 1600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+
+.space {
+    height: 120px;
+}
+
+.signup-header h2 {
+    padding-top: 20px;
+    font-size: 48px;
+    color: #0C6A63;
+}
+
+.signup-header p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.signup-form {
+    background-color: rgba(250, 250, 250, 0.5);
+    border-radius: 25px;
+    font-family: "Exo", sans-serif;
+    width: 650px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.signup-form input {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.field {
+    width: 250px;
+}
+
+.signup-form h2 {
+    color: #0C6A63;
+    padding: 20px 0 10px 0;
+}
+
+.signup-form i {
+    padding-left: 15px;
+}
+
+@media (max-width: 580px) {  
+    .signup-form h2 {font-size: 24px;}
+}
+
+.submit-button {
+    border-radius: 10px;
+    background-color: #00FFF0;
+    color: #0C6A63;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.submit-button:hover {
+    background-color:#0C6A63;
+    color: #00FFF0;
 }
 
 /*FOOTER*/
