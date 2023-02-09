@@ -345,7 +345,7 @@ h1 {
 
 .panic-p {
     text-indent: 2rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .benefits {
@@ -368,13 +368,13 @@ h1 {
 .panic h2 {
     text-align: center;
     color: #0C6A63;
-    font-size: 32px;
+    font-size: 48px;
     padding-bottom: 20px;
 }
 
 .benefits h2 {
     padding-top: 20px;
-    font-size: 32px;
+    font-size: 48px;
     color: #0C6A63;
 }
 
@@ -384,11 +384,39 @@ h1 {
 
 .benefits p {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .panic h2 i {
     margin-left: 20px;
+}
+
+.panic-one-image {
+    height: 800px;
+    width: 100%;
+    background: url('/assets/images/benefits-one.jpeg') no-repeat center center;
+    border-radius: 25px;
+}
+
+.panic-one-section {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.panic-two-image {
+    height: 800px;
+    width: 100%;
+    background: url('/assets/images/benefits-two.jpeg') no-repeat center center;
+    border-radius: 25px;
+}
+
+.panic-two-section {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 /*SIGN UP PAGE*/
