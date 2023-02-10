@@ -24,6 +24,10 @@ a:hover {
     flex: none;
 }
 
+.navbar-light {
+    width: 100%;
+}
+
 #logo {
     font-weight: 500;
     text-align: center;
@@ -174,6 +178,22 @@ span {
     display: flex;
 }
 
+#classes-hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    background-color: #fafafa;
+}
+
+#classes-hero-image {
+    height: 900px;
+    width: 100%;
+    background: none;
+    position: absolute;
+}
+
 #signup-hero-image {
     height: 900px;
     width: 100%;
@@ -240,17 +260,25 @@ span {
     margin: auto;
 }
 
+.classes-header {
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    font-family: "Exo", sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
 .space {
     height: 120px;
 }
 
-.page-header h2 {
+.page-header h2, .classes-header h2 {
     padding-top: 20px;
     font-size: 48px;
     color: #0C6A63;
 }
 
-.page-header p {
+.page-header p, .classes-header p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -417,6 +445,194 @@ h1 {
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+/*CLASSES SECTION*/
+
+#sessions {
+    background-image: url("/assets/images/big-screen-classes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 66%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    font-family: "Exo", sans-serif;
+}
+
+#sessions div {
+    color: #fafafa;
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px 0 10px 0;
+    text-align: center;
+    height: 230px;
+    border: 4px solid;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 800px) {
+    #sessions { grid-template-columns: repeat(3, 3fr); }
+  }
+
+@media (max-width: 600px) {
+    #sessions {width: 80%;}
+}
+
+@media (max-width: 800px) {
+    #classes-hero-outer {height: 1060px;}
+}
+
+@media (max-width: 800px) {
+    #sessions {background-image: url("/assets/images/small-screen-classes.jpg");}
+}
+
+#sessions div h2 {
+    font-size: 24px;
+    color: #fafafa;
+}
+
+#sessions div h3 {
+    font-size: 16px;
+    color: #fafafa;
+}
+
+/*TUTORS AND VENUES*/
+
+.venue {
+    grid-area: venue;
+  }
+
+.tutor {
+    grid-area: tutor;
+}
+
+.class-info {
+    grid-area: class-info;
+}
+
+.tutors-section {
+    font-family: "Exo", sans-serif;
+    display: grid;
+    gap: 0;
+    grid-template-areas:
+    "venue venue"
+    "tutor class-info";
+}
+
+@media (max-width: 800px) {
+    .tutors-section {grid-template-columns: 2fr 3fr;}
+    .venue {margin-right: 20px;}
+    .tutor {margin-left: 20px;}
+    #tutor-section-one {padding-top: 30px;}
+    .class-info {margin-right: 20px;}
+    #class-info-two, #tutor-section-two {height: 450px;}
+    #class-info-two {padding: 30px 20px;}
+    #tutor-section-two {padding: 0 10px;}
+    .tutor-two, .tutor-three {margin: auto;}
+}
+
+@media (min-width: 800px) {
+    .tutors-section {
+      grid-template-columns: 3fr 2fr;
+      grid-template-areas:
+        "venue tutor"
+        "class-info class-info";
+    }
+    #tutor-section-one {margin-top: 30%;}
+    #tutor-section-two {
+        height: 550px;
+        padding: 40px 10px;
+    }
+    .tutor {margin-right: 20px;}
+    .class-info {margin: 0 20px;}
+    .tutor-two, .tutor-three {margin: 10px auto;}
+  }
+
+  @media (min-width: 1000px) {
+    .tutors-section {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "venue tutor"
+        "venue class-info";
+    }
+    .tutor {margin-top: 0;}
+    .class-info {margin-left: 0;}
+    #tutor-section-one {margin: 0;}
+    #tutor-section-two {height: 275px;}
+    .tutor-two, .tutor-three {margin: auto;}
+}
+
+@media (max-width: 1000px) {
+    #tutor-box {display: inline;}
+}
+
+.venue {
+    background-color: #fafafa;
+    height: 550px;
+    border-radius: 25px;
+    margin-left: 20px;
+    width: 93%;
+    border-style: solid;
+    border-color: #0C6A63;
+}
+
+.tutor {
+    border-radius: 25px;
+    height: 275px;
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+.class-info {
+    background-color: #fafafa;
+    border-radius: 25px;
+    height: 275px;
+    font-size: 20px;
+    padding: 30px 10px;
+}
+
+@media (min-width: 800px) {
+    .class-info {padding: 30px 30px;}
+    .tutor {padding: 30px 10px;}
+}
+
+#class-info-one {
+    padding: 50px 30px;
+}
+
+.tutor-one {
+    background: url("/assets/images/tutor-one.jpeg") no-repeat center center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.tutor-two {
+    background: url("/assets/images/tutor-two.jpeg") no-repeat center center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+.tutor-three {
+    background: url("/assets/images/tutor-three.jpeg") no-repeat center center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+.tutor-box {
+    margin: auto;
+    display: flex;
+    padding: 0 30px;
 }
 
 /*SIGN UP PAGE*/
