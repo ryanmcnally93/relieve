@@ -318,10 +318,33 @@ I had to watch a few videos on flexbox and using it with bootstrap. I made the h
 
 7). Navbar distracted by upscrolling page.
 
-8). Flexbox understanding.
+8). Footer social media links on smallest screen sizes were putting the very last social media link on the next line. My way of thinking was as it's only one link that is being pushed down, a simple media query that changes the font-size would suffice for screens at mobile size.
 
 9). grids
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout
+
+10). On smaller screen sizes, the background image of the index page is not centered, meaning that the woman in the image is only partly shown, and it's not easy to work out what the image is.
+
+I tried messing with the image's position property and adding a media guery margin-left to see if it pushed the image where I wanted it, neither worked.
+
+I'd noticed on other pages if I gave the image a cover position rather than a center one, it changes the images size in such a way that it fits the element it's in, but that didn't work either.
+
+I then thought about taking the original image and cropping out a percentage if the right hand side, then saving this as another image, and calling for it in a media query.
+
+I had to re-size the image afterwards but it did the trick, it calls when on a mobile device, and you can see that the woman is meditating now.
+
+The Index page now looks good on all devices.
+
+11). The progress bar information looks terrible on the smallest screen sizes, with the link not wrapping inside the box it's in, and the boxes being of different width.
+
+Using Dev Tools I could see that there was a magin of 10px that was being added to all four sides, so I changed that to 10px 0, meaning there is no left or right margin, and the width was the same. I then made the url an anchor element, with a link name that included the website name only, without all the extra url info that was not neccessary anymore, rather than wrapping the text for the user to have to scroll through.
+
+Lastly I changed the width of the overall container on small screen sizes.
+
+12). The classes page is a mess on smallest screens. For some reason there is a scrollbar along the bottom that suggests that an element has a width that has not been set. I'm going to check every element on the page by setting the width to 100%, seeing if that fixes the issue, if not, then put it back to normal.
+
+BENEFITS WIDTH**
+
 ### Unfixed Bugs
 
 <!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
