@@ -75,7 +75,9 @@ The overall experience needs to feel calm, decluttered and peaceful.
 
 #### Colours
 
-LOOK INTO
+- As we all know, different colours produce different moods. Red and yellow are usually avoided as they are very sharp and sometimes even angry colours when used the wrong way. Often you'll see professional looking greys and safe shades of blue on wedsites, but I've opted for shades of turquoise and green.
+
+- Green is often seen as a peaceful, calm colour and I've mixed it with the professional blues.
 
 #### Styling
 
@@ -97,15 +99,15 @@ LOOK INTO
 
 These wireframes were created using Balsamiq:
 
-[Homepage](assets/images/homepage-wireframe.png)
+[Homepage](/assets/images/readme-images/homepage-wireframe.png)
 
-[Benefits](assets/images/benefits-wireframe.png)
+[Benefits](/assets/images/readme-images/benefits-wireframe.png)
 
-[Classes](assets/images/classes-wireframe.png)
+[Classes](/assets/images/readme-images/classes-wireframe.png)
 
-[Stories](assets/images/stories-wireframe.png)
+[Stories](/assets/images/readme-images/stories-wireframe.png)
 
-[Sign Up](assets/images/sign-up-wireframe.png)
+[Sign Up](/assets/images/readme-images/sign-up-wireframe.png)
 
 
 ### Q and A of Potential Users
@@ -180,7 +182,7 @@ UPDATE?
   - It is responsive, it condenses into a burger icon as the webpage is made smaller for tablets and phone devices.
   - The Navbar also responds by changing background and text colour as the user hovers over each page option.
 
-NAVBAR IMAGE
+![ Picture of the Navigation Bar](/assets/images/readme-images/navigation-bar.png "The Navigation Bar")
 
 - __Footer__
 
@@ -188,39 +190,44 @@ NAVBAR IMAGE
 
   - I have also provided information about where the business is based, this will help with the SEO of the website, as people who live in Lichfield, Staffordshire are more likely to find this page.
 
-IMAGE OF FOOTER
+![ Picture of the Footer](/assets/images/readme-images/footer.png "The Footer")
 
 - __Logo__
 
   - The idea for the logo was to make the middle "e" a different colour son that it could be read in two different ways. Relieve and Re-Live.
   - Since the company is focused on empowering people, it made sense to include the idea of restarting your life with a clean slate or, re-living.
 
-IMAGE OF LOGO
+![ Picture of the Logo](/assets/images/readme-images/logo.png "The Logo")
 
 - __The landing page hero image__
 
   - I wanted an image that was both happy and focused on meditation, the one I have found I think is brilliant because there is also a pregnant woman in the background, which represents inclusion.
 
-LANDING PAGE IMAGE
+![ Picture of a group meditating](/assets/images/index-hero.jpeg "Meditation Group")
 
 - __Who we are section__
 
   - This section is a brief overview of the whole site, once the user views this they have more knowledge of what this site is to be used for.
 
-PICTURE OF SECTION
+![ Picture of "who we are" section](/assets/images/readme-images/who-we-are.png "The Who We Are Section")
 
 - __Benefits__
 
-  - The hero image of this website is ...
-  - Benefits themselves
+  - The hero image of this website is a jogger, a perfect example of someone with good health. Here I wanted an inspiring, motivational image that also had very different colours and gave the page a warm comfortable feeling.
 
-PICTURE
+![ Picture of a jogger](/assets/images/benefits-hero.jpg "Jogger")
 
 - __Statistic Progress Bars__
 
-  - Stuff
+  - I wanted to use a visionary example for people visiting the page for the first time, rather than just reading lots of paragraphs. I thought I'd start with the higher number statistics, which really nail down the importance of good mental health.
 
-IMAGES
+![ Picture of progress bars](/assets/images/readme-images/progress-bars.png "Progress Bars")
+
+- __Benefits Section__
+
+  - I also wanted to add a section that was big, bold, and again nailed some of the important positives attached with learning how to meditate and be mindful.
+
+![ Picture of benefits section](/assets/images/readme-images/benefits-section.png "The Benefits Section")
 
 - __Panic Attack Help Section__
 
@@ -343,7 +350,8 @@ Lastly I changed the width of the overall container on small screen sizes.
 
 12). The classes page is a mess on smallest screens. For some reason there is a scrollbar along the bottom that suggests that an element has a width that has not been set. I'm going to check every element on the page by setting the width to 100%, seeing if that fixes the issue, if not, then put it back to normal.
 
-BENEFITS WIDTH**
+After a lot of unticking of css properties in Dev Tools, I found that a margin-right property was being added to my .row divs. I searched for it in my CSS and I hadn't written it, it was being automatically set. I put margin-right: 0; for all my .row elements and the issue was resolved.
+
 
 ### Unfixed Bugs
 
