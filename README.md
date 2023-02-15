@@ -2,7 +2,7 @@
 
 Relieve is a company based in Lichfield, Staffordshire that aspires to help the everyday person know more about mindfulness and meditation through its site information and available classes.
 
-HERE WILL BE AN IMAGE OF MY RESPONSIVE FIGMA PROTOTYPE ON 3 DEVICES
+![ Picture of the wedsite on different devices](/assets/images/readme-images/collection-of-pages.png "Relieves website")
 
 ## UX
 
@@ -174,8 +174,6 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
 ### Existing Features
 
-UPDATE?
-
 - __Navigation Bar__
 
   - The main navigation bar uses the websites main colour in different shades from left to right to signal different pages and look more stylish.
@@ -286,11 +284,42 @@ UPDATE?
 
 TO DO
 
-Hero Image first page, calls on different image and cover text is centered when small.
-Picture of the 2 changes before and after
+The first image is of the homepage on a larger screen, we can see that the cover text box is on the right. But when we look at the second image with is slightly larger than 600 pixels wide, the cover box has now been centered. On the last image, which is under 600 pixels, you can see that the image is different in its placement. I cropped the original image and called this on smaller screens so when viewed on mobile, the main woman is still visible, as opposed to seeing the blank space between people and not knowing what the image was originally.
 
-buttons respond by color and stay within the same window, including cover text box
-Logo size change, explain why and the lowest width parameters.
+![ Picture of homepage on big screen](/assets/images/readme-images/homepage-big.png "Homepage on a large device")
+
+But when we look at this second image, which is slightly larger than 600 pixels wide, the cover box has now been centered. 
+
+![ Picture of homepage on screen smaller than 1000 pixels wide](/assets/images/readme-images/homepage-med.png "Homepage on a medium sixed device")
+
+On the last image, which is under 600 pixels, you can see that the image is different in its placement. I cropped the original image and called this on smaller screens so when viewed on the minimum width of 320 pixels wide, the main woman is still visible, as opposed to seeing the blank space between people and not knowing what the image was originally.
+
+![ Picture of homapage on screen smaller than 600 pixels wide](/assets/images/readme-images/homepage-small.png "Homepage on a small device")
+
+The Navbar buttons change as required when hovered over, the background colour changes to the darker shade and the text colour changes to a lighter shade so the user knows they have scrolled over a clickable link.
+
+![ Picture of link before hover](/assets/images/readme-images/link-before.png "Link before hover")
+
+This is the case throughout the site on clickable buttons, like the one in the cover text box and submit button on the signup form.
+
+![ Picture of link after hover](/assets/images/readme-images/link-after.png "Link after hover")
+
+The only slightly different one is the logo, the word "relieve" is deliberatly broken up into the phrase "re-live". 
+
+![ Picture of logo before hover](/assets/images/readme-images/logo-before.png "Logo before hover")
+
+Until you hover over it and all the letters are the same colour.
+
+![ Picture of logo after hover](/assets/images/readme-images/logo-after.png "Logo after hover")
+
+I've added a size change to the logo that works perfectly. This is it before the change.
+
+![ Picture of logo on big screen](/assets/images/readme-images/logo-big-text.png "Logo on big screen")
+
+And this is it after, on the smallest screen width of 320 pixels. You'll notice that this now means the burger icon is on the same line still, instead of being pushed down and the links not being all visible when hovered over.
+
+![ Picture of logo on smallest screen](/assets/images/readme-images/logo-small-text.png "Logo on smallest screen")
+
 Picture of before and after logos disappearing on smaller screens
 Picture of " nav bar collapse
 Picture of " footer closer as smaller, different size at end
