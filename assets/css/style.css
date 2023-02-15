@@ -329,14 +329,14 @@ h1 {
 @media (max-width: 600px) {
     .progress {height: 60px;}
     .progress span {height: 60px; padding-top: 5px;}
-    #stats {min-width: 250px;}
+    #progress-stats {min-width: 250px;}
 }
 
 @media (max-width: 1000px) {
-    #stats {margin: auto;}
+    #progress-stats {margin: auto;}
 }
 @media (min-width: 1000px) {
-    #stats {min-width: 600px;}
+    #progress-stats {min-width: 600px;}
 }
 
 /*BENEFITS SECTION*/

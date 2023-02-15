@@ -231,41 +231,42 @@ UPDATE?
 
 - __Panic Attack Help Section__
 
-  - Stuff
+  - I have the personal experience of panic attacks, and know just how important this information regarding panic attacks is. This being free, and visible on our site almost as an added on feature, showcases one of the powerful ways in which meditation and mindfulness can be used in a worrying situation/scenario and what it can achieve.
+  - If someone doesn't feel comfortable coming to the sessions, they can take this information away and use it. Then at a later date when they have more confidence in the process, they will be more likely to make contact.
 
-IMAGES
+![ Picture of panic section](/assets/images/readme-images/panic.png "The Panic Section")
 
-- __Class Description__
+- __Classes__
 
-  - Stuff
+  - This is the whole point of visiting the site. To let the users know when and where they can attend a session and find help. The classes give opportunity for people to meet other people face-to-face and share stories, meaning that there is a positive productive social circle.
 
 - __Class Boxes__
 
-  - Stuff
+- Here I've used two different images, which show up dependant on the size of the device being used. One is vertical, the other horizontal. I've contained the six classes available in a 3x3 grid, which changes to a 2x4 grid on smaller screens. Information included is the venue, tutor, time and date.
 
-- The classes give opportunity for people to meet other people face-to-face and share stories, meaning that there is a positive productive social circle. The Sign-Up page could include a mailing list, so the users have useful, positive information sent their way regularly.
-
-IMAGES
+![ Picture of classes available](/assets/images/readme-images/classes-section.png "The Classes Available")
+![ Picture of classes available](/assets/images/readme-images/classes-section-2.png "Smaller Screen Classes Available")
 
 - __IFrames__
 
-  - Stuff
+  - When I first encountered IFrames I knew I wanted to implement them on this site. They're perfect for people wanting to explore the surrounding area of where they're going to. People can decide which driving route to take and better plan their journey, or simply look for its position in correlation with other places they know.
 
-IMAGES
+![ Picture of IFrame](/assets/images/readme-images/iframe.png "IFrame")
 
 - __Tutor Information__
 
-  - Images
-  - Information on classes provided
+  - I tried to find images that looked professional, but also friendly, with people smiling. I didn't want any users to feel scared, instead, more welcome.
+  - I also included some information regarding the people teaching the sessions, whilst also adding a bit of info about the class itself.
+  - The IFrame, image of the tutors, and information have been palced within a grid. This grid is then responsive dependant on screen size being used and displays so that you can visibly see all the information you need to.
 
-IMAGES
+![ Picture of tutor section](/assets/images/readme-images/tutor-section.png "IFrames and Tutors")
 
 - __Sign Up Page__
 
-  - Image
-  - Form
+  - The Sign Up page is for anyone who wants to receive the weekly newsletter will contain advice and information whilst also kindly reminding members of the classes available.
+  - The form itself is made up of 3 fields, first name, last name and email. All have the required attribute meaning you cannot submit without the information required.
 
-IMAGES
+![ Picture of sign up page](/assets/images/readme-images/signup-page.png "Sign Up Page")
 
 ### Features Left to Implement
 
@@ -275,7 +276,7 @@ IMAGES
 
   - As this business is just starting, it doesn't make sense to implement this page just yet, we could encourage users to share their stories which would empower them, and give them a sense of accomplishment, whilst also letting future users know that this is a process they can trust.
 
-WIREFRAMING IMAGE
+![ Picture of stories page](/assets/images/readme-images/stories-wireframe.png "What would have been the stories page")
 
 - __Unhelpful thinking section__
 
@@ -283,16 +284,29 @@ WIREFRAMING IMAGE
 
 ## Testing 
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+TO DO
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Hero Image first page, calls on different image and cover text is centered when small.
+Picture of the 2 changes before and after
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+buttons respond by color and stay within the same window, including cover text box
+Logo size change, explain why and the lowest width parameters.
+Picture of before and after logos disappearing on smaller screens
+Picture of " nav bar collapse
+Picture of " footer closer as smaller, different size at end
+progress bar centering and width changes
+pictures of links working and source information location
+pictures of small and large benefits section, note height changes with the text
+panic attack help section, pictures disappear and height changes.
+class section background change. Header text gets smaller.
+grid changes the organisation of the tutor, class info and iframe, explain how and pictures of examples. Height changes, still centered.
+Sign up text gets smaller, width changes on bars for small phones, button responds with background and color change ADD SUBMIT CONFIRMATION
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
-
+Pictures for all 3 devices
 
 ### Validator Testing 
+
+TO DO AT END
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
@@ -355,9 +369,11 @@ After a lot of unticking of css properties in Dev Tools, I found that a margin-r
 
 ### Unfixed Bugs
 
-<!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
+There are no bugs unfixed to my knowledge.
 
 ## Deployment
+
+TO DO AT VERY END
 
 <!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
@@ -371,16 +387,16 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-<!-- In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. -->
+TO DO
 
 ### Content 
 
 - Most of the benefits page is outsourced information**
 - Footer content could be considered borrowed code from Love Running, with TikTok added and colour chaged and hover colour created.
+- Grid code borrowed
 
 ### Media
 
 - Landing page hero image was taken from pexels.com, user name Gustavo Fring.
 - Sign up page hero image was taken from pexels.com, user name Hedenborg Ludvig.
+- Add other images
