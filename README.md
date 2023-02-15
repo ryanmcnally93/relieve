@@ -320,18 +320,103 @@ And this is it after, on the smallest screen width of 320 pixels. You'll notice 
 
 ![ Picture of logo on smallest screen](/assets/images/readme-images/logo-small-text.png "Logo on smallest screen")
 
-Picture of before and after logos disappearing on smaller screens
-Picture of " nav bar collapse
-Picture of " footer closer as smaller, different size at end
-progress bar centering and width changes
-pictures of links working and source information location
-pictures of small and large benefits section, note height changes with the text
-panic attack help section, pictures disappear and height changes.
-class section background change. Header text gets smaller.
-grid changes the organisation of the tutor, class info and iframe, explain how and pictures of examples. Height changes, still centered.
-Sign up text gets smaller, width changes on bars for small phones, button responds with background and color change ADD SUBMIT CONFIRMATION
+On the who we are section there are two icons, used to give the reader some context, but not necessary on smaller screens where there is limited space as it is.
 
-Pictures for all 3 devices
+![ Picture of icons](/assets/images/readme-images/who-we-are-icons.png "Who we are icons")
+
+Here you can see the section on smaller screens (below width 600 pixels) doesn't show the icons.
+
+![ Picture of who we are section, icons not visible](/assets/images/readme-images/who-we-are-no-icons.png "Who we are section without icons")
+
+The navbar unfortunately isn't functional on smaller screens, as the width simply isn't enough. To combat this we have the collapsable burger icon.
+
+![ Picture of burger icon](/assets/images/readme-images/burger.png"Burger icon")
+
+When clicked, the burger icon displays the same webpage anchor items but vertically instead.
+
+![ Picture of clicked burger icon, webpages displayed vertically](/assets/images/readme-images/burger-pages.png "Burger icon clicked")
+
+Here you can see the difference when the footer icons are displayed on a large screen ...
+
+![ Picture of footer icons](/assets/images/readme-images/footer-big.png "Footer icons")
+
+... and on a smaller screen. The gap between is a percentage rather than an actual measurement, this means it's completely responsive.
+
+![ Picture of small gap footer icons](/assets/images/readme-images/footer-med.png "Footer icons on small screen")
+
+On the smallest screens, I've made the icons font size smaller, to stop them from displaying on a different line.
+
+![ Picture of small footer icons](/assets/images/readme-images/footer-small.png "Footer icons smaller font size")
+
+The progress bars on the "Benefits" page are automatically left center, meaning you can view the jogger in the background image.
+
+![ Picture of progress bars on big screen](/assets/images/readme-images/progress-big.png "Progress bars on big screen")
+
+But when made smaller, this changes to being fully centered. Note that the background image doesn't stay centered but instead moves with the right hand side of the screen, meaning on the smallest screens, the jogger is still visible.
+
+![ Picture of progress bars on small screens](/assets/images/readme-images/progress-med.png "Progress bars on small screen")
+
+The progress. bars width is a percentage so changes with the width of the screen, and the height is larger when on smallest screens so that if the text goes onto the next line it is still within the bar.
+
+![ Picture of progress bar on smallest screen](/assets/images/readme-images/progress-small.png "Progress bar extra height")
+
+When the links within this section are clicked, it takes the user onto the source informations website.
+
+The benefits section doesn't change too much between big and large screens, but the height is responsive and changes with the text wrapping.
+
+![ Picture of benefits section on big screen](/assets/images/readme-images/benefits-big.png"Benefits section on big screen")
+
+![ Picture of benefits section on small screen](/assets/images/readme-images/benefits-small.png "Benefits section on small screen")
+
+With the panic attack help section, the images either side disappear on smaller screens due to availability of space. 
+
+![ Picture of panic section on small screen](/assets/images/readme-images/panic-big.png "Panic section on small screen")
+
+The height in this section is also responsive.
+
+![ Picture of panic section on small screen](/assets/images/readme-images/panic-small.png "Panic section on small screen")
+
+In the sessions section of the classes page, there are several changes through screen sizes. The most obvious one is the change of image from large screen to small.
+
+![ Picture of sessions section on a large screen](/assets/images/readme-images/sessions-big.png "Sessions section, large screen")
+
+Note there are also differences in the grid format. It changes from 3x3 to 2x4.
+
+![ Picture of sessions section on medium screen](/assets/images/readme-images/sessions-med.png "Sessions section, medium screen")
+
+On smallest screen sizes the header elements of the sessions have a smaller font size, so the divs aren't pushed too far wide of view.
+
+![ Picture of sessions section with small header](/assets/images/readme-images/sessions-small.png "Small header on session section")
+
+The next section is even more complicated. On larger screens, I wanted the tutor image and information on the right whilst having the iframe element on the left.
+
+![ Picture of tutor section on large screen](/assets/images/readme-images/tutor-big.png "Tutor section, large screen")
+
+The issue with this is when it is shown on a medium sixed screen (between 600 -1000 pixels wide), the writing extends quite far and so the iframe is stretched, also the second tutor section has two images inside.
+
+To fix this I have made the two images view vertically, and pushed the text onto the next line, using the grid-column-area commands.
+
+![ Picture of tutor section on medium screen](/assets/images/readme-images/tutor-med.png "Tutor section medium screen")
+
+On smallest screens, I've made it so each element displays vertically. All the information on all screen sizes is centered and the height properties change with the screen size.
+
+![ Picture of tutor section on small screen](/assets/images/readme-images/tutor-small.png "Tutor section, small screen")
+
+On the sign up page, there are only really two changes. 
+
+![ Picture of sign up page on big screen](/assets/images/readme-images/sign-big.png "Sign up page, big screen")
+
+The input boxes have a width restriction on small screens so they don't outgrow their div, and the header text is made smaller. 
+
+![ Picture of sign up page on small screen](/assets/images/readme-images/sign-small.png "Sign up page, small screen")
+
+The form also has required fields, with types on the inputs so that only the correct format can be entered.
+
+![ Picture of error message](/assets/images/readme-images/sign-error-1.png "Incorrect data entered")
+
+The form also wont allow information to not be submitted, as all fields have the required attribute.
+
+![ Picture of error message](/assets/images/readme-images/sign-error-2.png "No data entered, but required")
 
 ### Validator Testing 
 
@@ -429,3 +514,13 @@ TO DO
 - Landing page hero image was taken from pexels.com, user name Gustavo Fring.
 - Sign up page hero image was taken from pexels.com, user name Hedenborg Ludvig.
 - Add other images
+
+TO DO LIST
+
+SUBMIT BUTTON CONFIRMATION
+FIXED BUGS FINISH
+CREDITS
+EXTEND ALL
+
+VALIDATION
+PUSH
