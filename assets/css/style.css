@@ -190,6 +190,7 @@ span {
     padding: 10px 10px;
     border: none;
     font-weight: 500;
+    font-size: 20px;
 }
 
 #cover-text-button:hover {
@@ -245,6 +246,10 @@ span {
     padding-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+    .page-header h2, .classes-header h2 {font-size: 32px;}
+}
+
 /*WHO WE ARE SECTION*/
 
 .who-we-are {
@@ -282,6 +287,15 @@ h1 {
 .p-box {
     padding: 20px 0;
     font-size: 24px;
+}
+
+@media (max-width: 800px) {
+    .who-we-are {margin: 10px;}
+}
+
+@media (max-width: 600px) {
+    h1 {font-size: 32px;}
+    .p-box p {font-size: 16px;}
 }
 
 /*PROGRESS BARS SECTION*/
@@ -347,7 +361,7 @@ h1 {
     border-radius: 25px;
     font-family: "Exo", sans-serif;
     padding: 20px 0 50px 0;
-    margin: 20px 20px;
+    margin: 20px;
 }
 
 .benefits h2 {
@@ -365,11 +379,20 @@ h1 {
     font-size: 24px;
 }
 
+@media (max-width: 800px) {
+    .benefits {margin: 10px;}
+}
+
+@media (max-width: 600px) {
+    .benefits h2 {font-size: 32px;}
+    .benefits p {font-size: 16px;}
+}
+
 /*PANIC SECTION*/
 
 .panic-p {
-    text-indent: 2rem;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .panic-row {
@@ -392,7 +415,7 @@ h1 {
 }
 
 .panic-one-image {
-    height: 800px;
+    height: 100%;
     width: 100%;
     background: url('/assets/images/benefits-one.jpeg') no-repeat center center;
     border-radius: 25px;
@@ -410,6 +433,19 @@ h1 {
     width: 100%;
     background: url('/assets/images/benefits-two.jpeg') no-repeat center center;
     border-radius: 25px;
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+    .panic-p {font-size: 20px;}
+}
+
+@media (max-width: 800px) {
+    .panic-row {margin: 10px;}
+}
+
+@media (max-width: 600px) {
+    .panic h2 {font-size: 32px;}
+    .panic-p {font-size: 16px;}
 }
 
 /*CLASSES SECTION*/
@@ -455,7 +491,7 @@ h1 {
 }
 
 @media (max-width: 800px) {
-    #classes-hero-outer {height: 1060px;}
+    #classes-hero-outer {height: 1100px;}
     #sessions {background-image: url("/assets/images/small-screen-classes.jpg");}
 }
 
@@ -546,9 +582,13 @@ h1 {
 }
 
 @media (max-width: 800px) {
+    .class-info {font-size: 16px;}
+}
+
+@media (max-width: 800px) {
     .tutors-section {grid-template-columns: 2fr 3fr;}
-    .venue {margin-right: 20px;}
-    .tutor {margin: 20px 10px 0 10px;}
+    .venue {margin: auto;}
+    .tutor {margin: 10px}
     .class-info {margin: 0 10px;}
     #class-info-two {padding: 30px 20px;}
     .tutor-two {margin: 30px auto;} .tutor-three {margin: 30px auto;}
@@ -574,6 +614,7 @@ h1 {
 
 @media (max-width: 1000px) {
     #tutor-box {display: inline;}
+    .venue {margin-bottom: 20px;}
 }
 
 @media (min-width: 1000px) {
@@ -583,11 +624,11 @@ h1 {
         "venue tutor"
         "venue class-info";
     }
-    .tutor {margin-top: 0;}
-    .class-info {margin-left: 0;}
-    #tutor-section-one {margin: 0;}
+    .class-info {margin: 10px 20px 0 0;}
+    #tutor-section-one, #tutor-section-two {margin: 0 20px 10px 0;}
     #tutor-section-two {height: 275px;}
     .tutor-two, .tutor-three {margin: auto;}
+    .venue {height: 570px;}
 }
 
 /*SIGN UP PAGE*/
@@ -674,6 +715,10 @@ footer p, footer ul {
 
 .social-networks i:hover {
     color: #0C6A63;
+}
+
+@media (max-width: 800px) {
+    footer {margin: 10px;}
 }
 
 @media (max-width: 600px) {

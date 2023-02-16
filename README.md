@@ -69,9 +69,13 @@ The overall experience needs to feel calm, decluttered and peaceful.
 - The primary font "Exo" was chosen because it has a nice rounded edge to the lettering, there is nothing sharp that sticks out, adding to the calm feel.
 - The secondary font chosen is sans serif.
 
+![ Picture of text with Exo Font](/assets/images/readme-images/font.png "Exo Font")
+
 #### Icons
 
 - All icons chosen are to describe the paragraph of text next to them, some have been taken out once viewed on a phone to help create space for the reading of the text.
+
+![ Picture of icons](/assets/images/readme-images/icons.png "Icons")
 
 #### Colours
 
@@ -79,21 +83,33 @@ The overall experience needs to feel calm, decluttered and peaceful.
 
 - Green is often seen as a peaceful, calm colour and I've mixed it with the professional blues.
 
+- The only real exception to this is on the benefits page, where there is the warm orange/brown background image of the jogger.
+
+![ Picture of colours used on site](/assets/images/readme-images/colours.png "Colour")
+
 #### Styling
 
 - Divs have been given rounded edges to again add to that calming feeling, we dont want sharp and aggresive.
 - This edging and spacing between divs and sections has been made consistent throughout the pages and content.
+
+![ Picture of curved corners](/assets/images/readme-images/curves.png "Curved corners")
+
+![ Picture of margins between elements](/assets/images/readme-images/margins.png "Margin spacing")
 
 #### Backgrounds
 
 - Either hero images relevant to the page have been shown, white, or off-white (#FAFAFA) have been used.
 - This is so that the site is not too distracting from the content and not add to stress levels of the viewer.
 
+![ Picture of hero image](/assets/images/signup-hero.jpeg "Hero image")
+
 #### Images
 
 - The first image is a positive meditation one, almost putting the user directly into the class.
 - The Sign Up page image is an adventurous one, which represents the user moving forward with their life or doing something "out there". It also adds a sense of freedom.
-- The images of the tutors give familiarity to the user, which helps them find a safe space.
+- The images of the tutors give familiarity to the user, and are positive smiling images, which could help them feel more comfortable.
+
+![ Picture of tutor two](/assets/images/tutor-two.jpeg "Tutor two 'Jane Doe'")
 
 ### Wireframes
 
@@ -146,7 +162,7 @@ Pros:
 They are a charity with a lot of background information, and ties to Buddhism, so you know you’re learning meditation properly.
 
 Cons:
-Way too much information on the website. Way too many places to click to, too much on each page. Writing is small. Photo gallery images are not relevant, no images of the sessions themselves just of a building and a staircase? Donations doesn’t open donations page.
+Way too much information on the website. Way too many places to click to, too much on each page. Writing is small. Photo gallery images are not relevant, no images of the sessions themselves just of a building and a staircase? Donations link doesn’t open donations page.
 
 thebrightpath.co.uk/meditation-classes-Lichfield/
 
@@ -280,9 +296,79 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
     We could implement a page on unhelpful thinking habits. This could include black and white thinking and generalisations, to help the user see what they are doing day-to-day in their head and why it is unhelpful.
 
+- __Classes Backend__
+
+    Another feature that could be added is a sessions backend with a calendar so people can book themselves in for future sessions. They would be able to click on one of the six divs and choose a date with a session that had enough space available for another student.
+
+- __Logging in and leaving reviews__
+
+    Another development idea would be to allow users to log into the website and leave comments on the stories page or reviews of their sessions and tutors. This would be great for new users coming onto the site for the first time. And could be a great way to interact with customers whether they've had a good or bad experience.
+
+- __Classes Gallery__
+
+    We could also add images and videos from previous classes on either our classes, stories or even home webpage, eventually creating a gallery for new, current and/or previous users to look at.
+
 ## Testing 
 
-TO DO
+First, I've opened the site using developer tools on the IPhone 5/SE emulator. I've chosen this as it is the smallest screen size available. The first most noticeable thing is when the pages are shown on screens below 800, it doesn't work to have margins of 20px, instead 10px is better, to make more use of the scree space available. Also I noticed that the px-5 bootstrap calling was adding way too much padding to the who we are section, so I've changed this to px-4 which seems to be a lot better suited.
+
+![ Picture of homepage on IPhone](/assets/images/readme-images/home-iphone.png "Homepage on a IPhone")
+
+The benefits page seems to work fine, the height change in the progress bar is working as intended, allowing for the text to fall to the next line without disturbing the bars shape.
+
+![ Picture of benefits page on IPhone](/assets/images/readme-images/benefits-iphone.png "Benefits page on IPhone")
+
+On the classes page, I noticed one issue. The bottom of the sessions section was cut off as the hero outer element had a height restriction. I had called for the height to change on smaller screens to about 1000px, but needed to change this to 1100px in order to see everything on this screen. After this change, the whole page was perfect, with margins at 10px, same as the other pages.
+
+![ Picture of sessions issue](/assets/images/readme-images/sessions-issue.png "Issue on sessions section")
+![ Picture of fixed issue](/assets/images/readme-images/sessions-fixed.png "Fixed sessions section")
+![ Picture of classes page, good spacing](/assets/images/readme-images/classes-iphone.png "Classes page on IPhone")
+
+Thankfully the sign up page doesn't have too much information on it, the form is visible and again the spacing is good too.
+
+![ Picture of sign up page](/assets/images/readme-images/signup-iphone.png "Sign up page on IPhone")
+
+Next, I've opened the site the same way on the IPad emulator. I've chosen this as it is a good middle sized screen between desktop and mobile. The burger icon is still in use on this webpage as without it the page links with the logo would be too wide for the screen. It opens, and the options are clickable and working. The margin of 10px is still being used as this isn't too large of a screen so we still want to make best use of the page. The slightly larger 800-1000px width tablets will have 20px margins.
+
+![ Picture of homepage on IPad](/assets/images/readme-images/home-ipad.png "Homepage on IPad")
+
+The benefits page also looks good so far. The progress bars now have less height as they no longer need it, and the images come into focus on the panic section, which lookd very presentable and readable.
+
+![ Picture of Progress bars on Ipad](/assets/images/readme-images/benefits-ipad.png "Progress bars on IPad")
+![ Picture of Panic section on IPad](/assets/images/readme-images/panic-ipad.png "Panic section on IPad")
+
+Everything is as it should be now on the classes page too, margin is the same as the benefits page and the grid has not yet changed.
+
+![ Picture of sessions section on IPad](/assets/images/readme-images/sessions-ipad.png "Sessions section on IPad")
+![ Picture of tutor section on IPad](/assets/images/readme-images/tutor-ipad.png "Tutor section on IPad")
+
+This is the grid layout on the slightly larger screens, like the Surface Pro 7:
+
+![ Picture of grid layout changes](/assets/images/readme-images/tutor-surface7.png "Tutor section between 800-1000px width screens")
+
+The sign up page looks as good as it did on the smallest screen.
+
+![ Picture of sign up page on IPad](/assets/images/readme-images/signup-ipad.png "Sign up page on IPad")
+
+Last, I've opened the website on my normal desktop screen. The homepage looks as it should:
+
+![ Picture of homepage on desktop](/assets/images/readme-images/home-desktop.png "Homepage on a large device")
+
+The benefits page also looks good on desktop screens.
+
+![ Picture of benefits page on desktop](/assets/images/readme-images/benefits-desktop-1.png "Benefits page on a large device")
+![ Picture of benefits page on desktop](/assets/images/readme-images/benefits-desktop-2.png "Benefits page on a large device")
+
+The layout of the grid has changed again for the tutors section on desktop screens, but the 20px margin remains. The image has also changed for the sessions background.
+
+![ Picture of classes page on desktop](/assets/images/readme-images/classes-desktop-1.png "Classes page on a large device")
+![ Picture of classes page on desktop](/assets/images/readme-images/classes-desktop-2.png "Classes page on a large device")
+
+The sign up page looks as it should.
+
+![ Picture of sign up page on big screen](/assets/images/readme-images/signup-desktop.png "Sign up page on a large device")
+
+The following section is the testing of each element.
 
 The first image is of the homepage on a larger screen, we can see that the cover text box is on the right. But when we look at the second image with is slightly larger than 600 pixels wide, the cover box has now been centered. On the last image, which is under 600 pixels, you can see that the image is different in its placement. I cropped the original image and called this on smaller screens so when viewed on mobile, the main woman is still visible, as opposed to seeing the blank space between people and not knowing what the image was originally.
 
@@ -433,13 +519,21 @@ This is a detailed log of the issues I ran into whilst coding my first project, 
 
 1). The first real issue I detected during the prototype stage. Everything looked great small but on a big screen the navbar and hero image wouldn't have even fit on the page due to size. I had my dimensions correct for everything to fit, but they took up every inch of space.
 
-I fixed this by halving the height of the navbar and logo, and everything began to fit on the screen as it should.
+I fixed this by halving the height of the navbar and logo, and everything began to fit on the screen as it should. This is the difference of the two on my Figma prototype.
+
+![ Picture of figma prototype](/assets/images/readme-images/bug-1.png "Difference in navbar sizes")
 
 2). The next issue I ran into was the loading page hero image. The original size was over 5000 pixels in width and 3000 in height, I had to scale it down without losing any of the quality.
 
-I did so by using https://www.simpleimageresizer.com/upload to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 68% was the best fit for the webpage.
+I did so by using https://www.simpleimageresizer.com/upload to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 69% was the best fit for the webpage.
+
+![ Picture of original sized image](/assets/images/readme-images/bug-2-1.png "Hero image original size")
+![ Picture of improved size image](/assets/images/readme-images/bug-2-2.png "Hero image improved size")
 
 3). I had issues when creating the navbar as the text inside the anchor elements were not being centered vertically, I fixed this by creating a span inside the anchor element for the text.
+
+![ Picture of anchor outside span](/assets/images/readme-images/bug-3-1.png "Anchor, not vertically aligned")
+![ Picture of anchor inside span](/assets/images/readme-images/bug-3-2.png "Anchor vertically aligned")
 
 4). Information on main page didn't seem enough for the page, also had issues with making it look central, with icons on the left but clear on the right.
 
@@ -515,12 +609,18 @@ TO DO
 - Sign up page hero image was taken from pexels.com, user name Hedenborg Ludvig.
 - Add other images
 
-TO DO LIST
-
+Technical help?
 SUBMIT BUTTON CONFIRMATION
-FIXED BUGS FINISH
-CREDITS
-EXTEND ALL
+ALT TEXT
 
+Mentor help?
+NAVBAR SCROLLING DISTURBED?
+
+FIXED BUGS FINISH AND IMAGES
+CREDITS
+FAMILY USER STORIES AND ANSWERS
+LIGHTHOUSE, AIM FOR 70-90 SCORE
+INSTALL PRETTIER ON GITPOD AND FORMAT
 VALIDATION
-PUSH
+LAST PHONE LIST CHECKS
+DEPLOYMENT
