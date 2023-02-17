@@ -543,84 +543,85 @@ This is a detailed log of the issues I ran into whilst coding my first project, 
 
 I fixed this by halving the height of the navbar and logo, and everything began to fit on the screen as it should. This is the difference of the two on my Figma prototype.
 
-![ Picture of figma prototype](/assets/images/readme-images/bug-1.png "Difference in navbar sizes")
+<img src="assets/images/readme-images/bug-1.png" width="80%" alt="Difference in navbar sizes" style="display: block; margin: auto;">
 
 2). The next issue I ran into was the loading page hero image. The original size was over 5000 pixels in width and 3000 in height, I had to scale it down without losing any of the quality.
 
 I did so by using this [Resizer](https://www.simpleimageresizer.com/upload) to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 69% was the best fit for the webpage.
 
-![ Picture of original sized image](/assets/images/readme-images/bug-2-1.png "Hero image original size")
+<img src="assets/images/readme-images/bug-2-1.png" width="20%" alt="Hero image original size" style="display: block; margin: auto;">
 
-![ Picture of improved size image](/assets/images/readme-images/bug-2-2.png "Hero image improved size")
+<img src="assets/images/readme-images/bug-2-2.png" width="20%" alt="Hero image improved size" style="display: block; margin: auto;">
 
 3). I had issues when creating the navbar as the text inside the anchor elements were not being centered vertically, I fixed this by creating a span inside the anchor element for the text.
 
-![ Picture of anchor outside span](/assets/images/readme-images/bug-3-1.png "Anchor, not vertically aligned")
+<img src="assets/images/readme-images/bug-3-1.png" width="20%" alt="Anchor, not vertically aligned" style="display: block; margin: auto;">
 
-![ Picture of anchor inside span](/assets/images/readme-images/bug-3-2.png "Anchor vertically aligned")
+<img src="assets/images/readme-images/bug-3-2.png" width="20%" alt="Anchor vertically aligned" style="display: block; margin: auto;">
 
 4). Information on main page didn't seem enough for the page, also had issues with making it look central, with icons on the left but clear on the right.
 
 I first made the text and icons bigger on desktop backgrounds and attempted to create some empty space on the page, adding to that calm feel we wanted. I created 3 columns within a row and gave the text the width of 6, I also added some bootstrap shortcut to get rid of the icons when the screen is phone sized, and gave the text some padding so it still sits within the section nicely.
 
-![ Picture of homepage with small text](/assets/images/readme-images/bug-4-1.png "Small text, too much space")
+<img src="assets/images/readme-images/bug-4-1.png" width="80%" alt="Small text, too much space" style="display: block; margin: auto;">
 
-![ Picture of finished homepage](/assets/images/readme-images/bug-4-2.png "Finished homepage")
+<img src="assets/images/readme-images/bug-4-2.png" width="60%" alt="Finished homepage" style="display: block; margin: auto;">
 
 5). I had an issue centering the cover text box on the landing page hero image. I had a bottom and right measurement, which on phone screens, was pushing it to the left and wasn't central.
 
 I had to watch a few videos on flexbox and using it with bootstrap. I made the hero outer, which is the cover text's container, justify content centrally on small screen sizes. On larger screen sizes I made them position from the right, adding a right margin to the cover text box to push it away from the edge.
 
-![ Picture of container not central](/assets/images/readme-images/bug-5-1.png "Container not central")
+<img src="assets/images/readme-images/bug-5-1.png" width="50%" alt="Container not central" style="display: block; margin: auto;">
 
-![ Picture of code used](/assets/images/readme-images/bug-5-2.png "Code used")
+<img src="assets/images/readme-images/bug-5-2.png" width="50%" alt="Code used" style="display: block; margin: auto;">
 
-![ Picture of container central](/assets/images/readme-images/bug-5-3.png "Container central")
-
+<img src="assets/images/readme-images/bug-5-3.png" width="50%" alt="Container central" style="display: block; margin: auto;">
 
 6). Footer social media links on smallest screen sizes were putting the very last social media link on the next line. My way of thinking was as it's only one link that is being pushed down, a simple media query that changes the font-size would suffice for screens at mobile size.
 
-![ Picture of footer elements on two lines](/assets/images/readme-images/bug-6-1.png "Footer not contained")
+<img src="assets/images/readme-images/bug-6-1.png" width="30%" alt="Footer not contained" style="display: block; margin: auto;">
 
-![ Picture of code used](/assets/images/readme-images/bug-6-2.png "Code used")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/bug-6-2.png" width="40%" alt="Code used" style="margin: 0 5%">
 
-![ Picture of footer contained](/assets/images/readme-images/bug-6-3.png "Footer contained")
+  <img src="assets/images/readme-images/bug-6-3.png" width="40%" alt="Footer contained" style="margin: 0 5%;">
+</div>
 
 7). One of the hardest tasks I had was getting the elements on the classes page to move in 3 different ways for 3 different screen sizes. I deliberately chose quite tricky changes in my Figma prototype, to challenge myself. It took me a while to find something that helped, but I found this site very useful:
 
 [Grid Layouts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout)
 
-![ Picture of poor grid layout](/assets/images/readme-images/bug-7-1.png "Poor grid")
+<img src="assets/images/readme-images/bug-7-1.png" width="40%" alt="Poor grid" style="display: block; margin: auto;">
 
-![ Picture of code used](/assets/images/readme-images/bug-7-2.png "Code used")
+<img src="assets/images/readme-images/bug-7-2.png" width="40%" alt="Code used" style="display: block; margin: auto;">
 
-![ Picture of code used](/assets/images/readme-images/bug-7-3.png "Code used")
+<img src="assets/images/readme-images/bug-7-3.png" width="40%" alt="Code used" style="display: block; margin: auto;">
 
-![ Picture of good grid layout](/assets/images/readme-images/bug-7-4.png "Good layout")
+<img src="assets/images/readme-images/bug-7-4.png" width="40%" alt="Good layout" style="display: block; margin: auto;">
 
 8). On smaller screen sizes, the background image of the index page is not centered, meaning that the woman in the image is only partly shown, and it's not easy to work out what the image is. I tried messing with the image's position property and adding a media guery margin-left to see if it pushed the image where I wanted it, neither worked. I'd noticed on other pages if I gave the image a cover position rather than a center one, it changes the images size in such a way that it fits the element it's in, but that didn't change the outcome either.
 
-![ Picture of original image](/assets/images/readme-images/bug-8-1.png "Original image")
+<img src="assets/images/readme-images/bug-8-1.png" width="30%" alt="Original image" style="display: block; margin: auto;">
 
 I then thought about taking the original image and cropping out a percentage if the right hand side, then saving this as another image, and calling for it in a media query. I had to re-size the image afterwards but it did the trick, it calls when on a mobile device, and you can see that the woman is meditating now.
 
-![ Picture of media queried image](/assets/images/readme-images/bug-8-2.png "Media queried image")
+<img src="assets/images/readme-images/bug-8-2.png" width="30%" alt="Media queried image" style="display: block; margin: auto;">
 
 9). The progress bar information looks terrible on the smallest screen sizes, with the link not wrapping inside the box it's in, and the boxes being of different width.
 
-![ Picture of progress bar issues](/assets/images/readme-images/bug-9-1.png "Progress bar issues")
+<img src="assets/images/readme-images/bug-9-1.png" width="30%" alt="Progress bar issues" style="display: block; margin: auto;">
 
 Using Dev Tools I could see that there was a magin of 10px that was being added to all four sides, so I changed that to 10px 0, meaning there is no left or right margin, and the width was the same. I then made the url an anchor element, with a link name that included the website name only, without all the extra url info that was not neccessary anymore, rather than wrapping the text for the user to have to scroll through. Lastly I changed the width of the overall container on small screen sizes.
 
-![ Picture of progress bar fixed](/assets/images/readme-images/bug-9-2.png "Progress bar fixed")
+<img src="assets/images/readme-images/bug-9-2.png" width="30%" alt="Progress bar fixed" style="display: block; margin: auto;">
 
 10). The classes page is a mess on smallest screens. For some reason there is a scrollbar along the bottom that suggests that an element has a width that has not been set. I'm going to check every element on the page by setting the width to 100%, seeing if that fixes the issue, if not, then put it back to normal.
 
-![ Picture of right margin ruining page](/assets/images/readme-images/bug-10-1.png "Margin issue")
+<img src="assets/images/readme-images/bug-10-1.png" width="20%" alt="Margin issue" style="display: block; margin: auto;">
 
 After a lot of unticking of css properties in Dev Tools, I found that a margin-right property was being added to my .row divs. I searched for it in my CSS and I hadn't written it, it was being automatically set. I put margin-right: 0; for all my .row elements and the issue was resolved.
 
-![ Picture of code used](/assets/images/readme-images/bug-10-2.png "Code that resolved issue")
+<img src="assets/images/readme-images/bug-10-2.png" width="20%" alt="Code that resolved issue" style="display: block; margin: auto;">
 
 ### Unfixed Bugs
 
@@ -681,10 +682,15 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 - All icons were obtained from fontawesome.com.
 
+### Acknowledgements
 
-SUBMIT BUTTON CONFIRMATION
-ALT TEXT
+-   My Mentor Jubril Akolade for continuous helpful feedback.
 
+-   My college contact Pasquale Fasulo for his support throughout. 
+
+-   Tutor support and the Slack community at Code Institute for their help too.
+
+FORM SUBMISSION - ASKED ON SLACK
 LIGHTHOUSE, AIM FOR 70-90 SCORE
 INSTALL PRETTIER ON GITPOD AND FORMAT
 VALIDATION
