@@ -416,7 +416,7 @@ Here you can see the section on smaller screens (below width 600 pixels) doesn't
 
 The navbar unfortunately isn't functional on smaller screens, as the width simply isn't enough. To combat this we have the collapsable burger icon.
 
-![ Picture of burger icon](/assets/images/readme-images/burger.png"Burger icon")
+![ Picture of burger icon](/assets/images/readme-images/burger.png "Burger icon")
 
 When clicked, the burger icon displays the same webpage anchor items but vertically instead.
 
@@ -525,55 +525,80 @@ I fixed this by halving the height of the navbar and logo, and everything began 
 
 2). The next issue I ran into was the loading page hero image. The original size was over 5000 pixels in width and 3000 in height, I had to scale it down without losing any of the quality.
 
-I did so by using https://www.simpleimageresizer.com/upload to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 69% was the best fit for the webpage.
+I did so by using this [Resizer](https://www.simpleimageresizer.com/upload) to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 69% was the best fit for the webpage.
 
 ![ Picture of original sized image](/assets/images/readme-images/bug-2-1.png "Hero image original size")
+
 ![ Picture of improved size image](/assets/images/readme-images/bug-2-2.png "Hero image improved size")
 
 3). I had issues when creating the navbar as the text inside the anchor elements were not being centered vertically, I fixed this by creating a span inside the anchor element for the text.
 
 ![ Picture of anchor outside span](/assets/images/readme-images/bug-3-1.png "Anchor, not vertically aligned")
+
 ![ Picture of anchor inside span](/assets/images/readme-images/bug-3-2.png "Anchor vertically aligned")
 
 4). Information on main page didn't seem enough for the page, also had issues with making it look central, with icons on the left but clear on the right.
 
-I first made the text and icons bigger and attempted to create some empty space on the page, adding to that calm feel we wanted. I created 3 columns within a row and gave the text the width of 6, I also added some bootstrap shortcut to get rid of the icons when the screen is phone sized, and gave the text some padding so it still sits within the section nicely.
+I first made the text and icons bigger on desktop backgrounds and attempted to create some empty space on the page, adding to that calm feel we wanted. I created 3 columns within a row and gave the text the width of 6, I also added some bootstrap shortcut to get rid of the icons when the screen is phone sized, and gave the text some padding so it still sits within the section nicely.
 
-5). Padding left? Hero Image container false.
+![ Picture of homepage with small text](/assets/images/readme-images/bug-4-1.png "Small text, too much space")
 
-6). I had an issue centering the cover text box on the landing page hero image. I had a bottom and right measurement, which on phone screens, was pushing it to the left and wasn't central.
+![ Picture of finished homepage](/assets/images/readme-images/bug-4-2.png "Finished homepage")
 
-I had to watch a few videos on flexbox and using it with bootstrap. I made the hero outer, which is the cover text's container, justify content centrally on small screen sizes. On larger screen sizes I made them position from the right, addding a right margin to the cover text box to push it away from the edge.
+5). I had an issue centering the cover text box on the landing page hero image. I had a bottom and right measurement, which on phone screens, was pushing it to the left and wasn't central.
 
-7). Navbar distracted by upscrolling page.
+I had to watch a few videos on flexbox and using it with bootstrap. I made the hero outer, which is the cover text's container, justify content centrally on small screen sizes. On larger screen sizes I made them position from the right, adding a right margin to the cover text box to push it away from the edge.
 
-8). Footer social media links on smallest screen sizes were putting the very last social media link on the next line. My way of thinking was as it's only one link that is being pushed down, a simple media query that changes the font-size would suffice for screens at mobile size.
+![ Picture of container not central](/assets/images/readme-images/bug-5-1.png "Container not central")
 
-9). grids
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout
+![ Picture of code used](/assets/images/readme-images/bug-5-2.png "Code used")
 
-10). On smaller screen sizes, the background image of the index page is not centered, meaning that the woman in the image is only partly shown, and it's not easy to work out what the image is.
+![ Picture of container central](/assets/images/readme-images/bug-5-3.png "Container central")
 
-I tried messing with the image's position property and adding a media guery margin-left to see if it pushed the image where I wanted it, neither worked.
 
-I'd noticed on other pages if I gave the image a cover position rather than a center one, it changes the images size in such a way that it fits the element it's in, but that didn't work either.
+6). Footer social media links on smallest screen sizes were putting the very last social media link on the next line. My way of thinking was as it's only one link that is being pushed down, a simple media query that changes the font-size would suffice for screens at mobile size.
 
-I then thought about taking the original image and cropping out a percentage if the right hand side, then saving this as another image, and calling for it in a media query.
+![ Picture of footer elements on two lines](/assets/images/readme-images/bug-6-1.png "Footer not contained")
 
-I had to re-size the image afterwards but it did the trick, it calls when on a mobile device, and you can see that the woman is meditating now.
+![ Picture of code used](/assets/images/readme-images/bug-6-2.png "Code used")
 
-The Index page now looks good on all devices.
+![ Picture of footer contained](/assets/images/readme-images/bug-6-3.png "Footer contained")
 
-11). The progress bar information looks terrible on the smallest screen sizes, with the link not wrapping inside the box it's in, and the boxes being of different width.
+7). One of the hardest tasks I had was getting the elements on the classes page to move in 3 different ways for 3 different screen sizes. I deliberately chose quite tricky changes in my Figma prototype, to challenge myself. It took me a while to find something that helped, but I found this site very useful:
 
-Using Dev Tools I could see that there was a magin of 10px that was being added to all four sides, so I changed that to 10px 0, meaning there is no left or right margin, and the width was the same. I then made the url an anchor element, with a link name that included the website name only, without all the extra url info that was not neccessary anymore, rather than wrapping the text for the user to have to scroll through.
+[Grid Layouts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout)
 
-Lastly I changed the width of the overall container on small screen sizes.
+![ Picture of poor grid layout](/assets/images/readme-images/bug-7-1.png "Poor grid")
 
-12). The classes page is a mess on smallest screens. For some reason there is a scrollbar along the bottom that suggests that an element has a width that has not been set. I'm going to check every element on the page by setting the width to 100%, seeing if that fixes the issue, if not, then put it back to normal.
+![ Picture of code used](/assets/images/readme-images/bug-7-2.png "Code used")
+
+![ Picture of code used](/assets/images/readme-images/bug-7-3.png "Code used")
+
+![ Picture of good grid layout](/assets/images/readme-images/bug-7-4.png "Good layout")
+
+8). On smaller screen sizes, the background image of the index page is not centered, meaning that the woman in the image is only partly shown, and it's not easy to work out what the image is. I tried messing with the image's position property and adding a media guery margin-left to see if it pushed the image where I wanted it, neither worked. I'd noticed on other pages if I gave the image a cover position rather than a center one, it changes the images size in such a way that it fits the element it's in, but that didn't change the outcome either.
+
+![ Picture of original image](/assets/images/readme-images/bug-8-1.png "Original image")
+
+I then thought about taking the original image and cropping out a percentage if the right hand side, then saving this as another image, and calling for it in a media query. I had to re-size the image afterwards but it did the trick, it calls when on a mobile device, and you can see that the woman is meditating now.
+
+![ Picture of media queried image](/assets/images/readme-images/bug-8-2.png "Media queried image")
+
+9). The progress bar information looks terrible on the smallest screen sizes, with the link not wrapping inside the box it's in, and the boxes being of different width.
+
+![ Picture of progress bar issues](/assets/images/readme-images/bug-9-1.png "Progress bar issues")
+
+Using Dev Tools I could see that there was a magin of 10px that was being added to all four sides, so I changed that to 10px 0, meaning there is no left or right margin, and the width was the same. I then made the url an anchor element, with a link name that included the website name only, without all the extra url info that was not neccessary anymore, rather than wrapping the text for the user to have to scroll through. Lastly I changed the width of the overall container on small screen sizes.
+
+![ Picture of progress bar fixed](/assets/images/readme-images/bug-9-2.png "Progress bar fixed")
+
+10). The classes page is a mess on smallest screens. For some reason there is a scrollbar along the bottom that suggests that an element has a width that has not been set. I'm going to check every element on the page by setting the width to 100%, seeing if that fixes the issue, if not, then put it back to normal.
+
+![ Picture of right margin ruining page](/assets/images/readme-images/bug-10-1.png "Margin issue")
 
 After a lot of unticking of css properties in Dev Tools, I found that a margin-right property was being added to my .row divs. I searched for it in my CSS and I hadn't written it, it was being automatically set. I put margin-right: 0; for all my .row elements and the issue was resolved.
 
+![ Picture of code used](/assets/images/readme-images/bug-10-2.png "Code that resolved issue")
 
 ### Unfixed Bugs
 
@@ -595,19 +620,44 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-TO DO
-
 ### Content 
 
-- Most of the benefits page is outsourced information**
-- Footer content could be considered borrowed code from Love Running, with TikTok added and colour chaged and hover colour created.
-- Grid code borrowed
+- I got the statistic I used for the first progress bar from this site:
+[disturbmenot.co](https://disturbmenot.co/meditation-statistics/)
+The site describes its source as "Project Meditation".
+
+- I found the second statistic on this page:
+[cogbtherapy.com](https://cogbtherapy.com/cbt-for-social-anxiety-disorder)
+The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). Journal of Cognitive Psychotherapy".
+
+- The footer element throughout my site was inspired by the Love Running project, I liked the spacing and colour changing of the social links and it was easy to make it fit in with the project.
+
+- The grid code was taken from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) and I changes the fr and colum values to get the finish I required.
 
 ### Media
 
-- Landing page hero image was taken from pexels.com, user name Gustavo Fring.
-- Sign up page hero image was taken from pexels.com, user name Hedenborg Ludvig.
-- Add other images
+- All of the following images are from pexels.com, below is a list of the image names and the author who posted them on pexels.com.
+
+- index-hero.jpeg, small-index.jpeg - Gustavo Fring.
+
+- benefits-hero.jpg, tutor-three.jpeg - Pixabay.
+
+- benefits-one.jpeg - Ketut Subiyanto.
+
+- benefits-two.jpeg - Liza Summer.
+
+- big-screen-classes.jpg - Oluremi Adebayo.
+
+- small-screen-classes.jpg - Suraphat Nuea-on.
+
+- tutor-two.jpeg - Andrea Piacquadio.
+
+- signup-hero.jpeg - Hedenborg Ludvig.
+
+- This picture was obtained on unsplash.com/s/photos/portraits
+- tutor-one.jpeg - Jurica Koletić.
+
+- All icons were obtained from fontawesome.com.
 
 Technical help?
 SUBMIT BUTTON CONFIRMATION
@@ -616,11 +666,9 @@ ALT TEXT
 Mentor help?
 NAVBAR SCROLLING DISTURBED?
 
-FIXED BUGS FINISH AND IMAGES
-CREDITS
-FAMILY USER STORIES AND ANSWERS
 LIGHTHOUSE, AIM FOR 70-90 SCORE
 INSTALL PRETTIER ON GITPOD AND FORMAT
 VALIDATION
 LAST PHONE LIST CHECKS
 DEPLOYMENT
+FAMILY USER STORIES AND ANSWERS
