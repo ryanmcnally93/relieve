@@ -531,9 +531,26 @@ The form also wont allow information to not be submitted, as all fields have the
 TO DO AT END
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Some errors were found when going through the W3C validator. [W3C validator](https://validator.w3.org/)
+
+  - There were two div closing tags that were not needed, one of them had to be swapped with a closing nav element.
+
+  - The paragraph within the footer was in the unordered list, so I took it out and gve it its own styling.
+
+  - There was a warning message that showed when the classes page went through. The validator didn't like that the tutor sections didn't have headings. I therefore changed the section elements to div elements here.
+
+  - After these changes there are no more errors within all four pages of html.
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+<p>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img  style="border:0;width:88px;height:31px;margin:auto;display:flex;"
+          src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="Valid CSS!" />
+    </a>
+</p>
 
 ### Fixed Bugs
 
@@ -669,9 +686,9 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 - benefits-two.jpeg - Liza Summer.
 
-- big-screen-classes.jpg - Oluremi Adebayo.
+- big-screen-classes.jpeg - Oluremi Adebayo.
 
-- small-screen-classes.jpg - Suraphat Nuea-on.
+- small-screen-classes.jpeg - Suraphat Nuea-on.
 
 - tutor-two.jpeg - Andrea Piacquadio.
 
@@ -690,10 +707,17 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 -   Tutor support and the Slack community at Code Institute for their help too.
 
-FORM SUBMISSION - ASKED ON SLACK
-LIGHTHOUSE, AIM FOR 70-90 SCORE
-INSTALL PRETTIER ON GITPOD AND FORMAT
-VALIDATION
+## Lighthouse Scores
+
+[Homepage](/assets/images/readme-images/home-lighthouse.png)
+
+[Benefits](/assets/images/readme-images/benefits-lighthouse.png)
+
+[Classes](/assets/images/readme-images/classes-lighthouse.png)
+
+[Sign up](/assets/images/readme-images/signup-lighthouse.png)
+
 LAST PHONE LIST CHECKS
 DEPLOYMENT
 FAMILY USER STORIES AND ANSWERS
+SPELLCHECK MD

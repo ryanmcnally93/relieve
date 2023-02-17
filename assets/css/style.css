@@ -1,742 +1,856 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700");
 
 /*HEADER*/
 
 .logo {
-    float: left;
-    color: #29BDB4;
-    text-decoration: none;
-    font-family: "Exo", sans-serif;
-    background-color: #fafafa;
-    border-radius: 25px;
-    width: 300px;
-    height: 90px;
-    margin: 10px;
-    opacity: 85%;
+  float: left;
+  color: #29bdb4;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  background-color: #fafafa;
+  border-radius: 25px;
+  width: 300px;
+  height: 90px;
+  margin: 10px;
+  opacity: 85%;
 }
 
 #logo {
-    font-weight: 500;
-    text-align: center;
-    margin-top: 6.5px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 6.5px;
 }
 
 .logo:hover {
-    text-decoration: none;
-    color: #5B905A;
+  text-decoration: none;
+  color: #5b905a;
 }
 
 #e {
-    color: #5B905A;
-    font-weight: 500;
+  color: #5b905a;
+  font-weight: 500;
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .page-links {
-    max-width: none;
-    flex: none;
+  max-width: none;
+  flex: none;
 }
 
 .pages {
-    text-decoration: none;
-    float: right;
-    border-radius: 25px;
-    text-align: center;
-    width: 135px;
-    font-weight: 500;
-    margin: 10px 10px;
-    font-family: "Exo", sans-serif;
-    background-color: #C7FFF8;
-    height: 90px;
-    padding: 1em;
-    font-size: 24px;
+  text-decoration: none;
+  float: right;
+  border-radius: 25px;
+  text-align: center;
+  width: 135px;
+  font-weight: 500;
+  margin: 10px 10px;
+  font-family: "Exo", sans-serif;
+  background-color: #c7fff8;
+  height: 90px;
+  padding: 1em;
+  font-size: 24px;
 }
 
 .navbar {
-    padding: 0;
-    float: right;
+  padding: 0;
+  float: right;
 }
 
 span {
-    color: #0C6A63;
+  color: #0c6a63;
 }
 
 .navbar-toggler {
-    color: #0C6A63;
-    background-color: #fafafa;
-    padding: 1rem 2rem;
-    height: 90px;
-    margin: 10px 10px;
-    border-radius: 25px;
+  color: #0c6a63;
+  background-color: #fafafa;
+  padding: 1rem 2rem;
+  height: 90px;
+  margin: 10px 10px;
+  border-radius: 25px;
 }
 
-#home:hover, #benefits:hover, #classes:hover, #sign-up:hover {
-    background-color: #0C6A63;
+#home:hover,
+#benefits:hover,
+#classes:hover,
+#sign-up:hover {
+  background-color: #0c6a63;
 }
 
 .pages:hover span {
-    color: #00FFF0;
+  color: #00fff0;
 }
 
 .active {
-    border-bottom-style: solid;
+  border-bottom-style: solid;
 }
 
 @media (max-width: 600px) {
-    .logo {width: 170px;}
-    #logo {font-size: 48px; padding-top: 10px;}
-    .navbar-toggler {
-        height: 60px;
-        padding: 0rem 1rem;
-        margin: 15px;
-        border-radius: 15px;
-    }
-    .pages {
-        width: 90px;
-        height: 60px;
-        font-size: 16px;
-        margin: 5px;
-    }
+  .logo {
+    width: 170px;
+  }
+  #logo {
+    font-size: 48px;
+    padding-top: 10px;
+  }
+  .navbar-toggler {
+    height: 60px;
+    padding: 0rem 1rem;
+    margin: 15px;
+    border-radius: 15px;
+  }
+  .pages {
+    width: 90px;
+    height: 60px;
+    font-size: 16px;
+    margin: 5px;
+  }
 }
 
 @media (min-width: 600px) {
-    #logo {font-size: 64px;}
+  #logo {
+    font-size: 64px;
+  }
 }
 
 /*HERO IMAGES*/
 
 #hero-image {
-    height: 800px;
-    width: 100%;
-    background: url('/assets/images/index-hero.jpeg') no-repeat center center;
-    animation: none;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    position: absolute;
+  height: 800px;
+  width: 100%;
+  background: url("/assets/images/index-hero.jpeg") no-repeat center center;
+  animation: none;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  position: absolute;
 }
 
 #hero-outer {
-    height: 800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
 }
 
 #benefits-hero-image {
-    height: 900px;
-    width: 100%;
-    background: url('/assets/images/benefits-hero.jpg') no-repeat center right;
-    animation: none;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    position: absolute;
+  height: 900px;
+  width: 100%;
+  background: url("/assets/images/benefits-hero.jpg") no-repeat center right;
+  animation: none;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  position: absolute;
 }
 
 #benefits-hero-outer {
-    height: 800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
 }
 
 #classes-hero-outer {
-    height: 800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    background-color: #fafafa;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  background-color: #fafafa;
 }
 
 #classes-hero-image {
-    height: 900px;
-    width: 100%;
-    background: none;
-    position: absolute;
+  height: 900px;
+  width: 100%;
+  background: none;
+  position: absolute;
 }
 
 #signup-hero-image {
-    height: 900px;
-    width: 100%;
-    background: url('/assets/images/signup-hero.jpeg') no-repeat center center;
-}
-  
-#signup-hero-outer {
-    height: 800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  height: 900px;
+  width: 100%;
+  background: url("/assets/images/signup-hero.jpeg") no-repeat center center;
 }
 
-#cover-text, #cover-text h2 {
-    color: #0C6A63;
-    font-size: 24px;
+#signup-hero-outer {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-  
+
+#cover-text,
+#cover-text h2 {
+  color: #0c6a63;
+  font-size: 24px;
+}
+
 #cover-text {
-    width: 310px;
-    height: 200px;
-    padding: 20px 20px;
-    background-color: #C7FFF8;
-    bottom: 50px;
-    text-align: center;
-    opacity: 85%;
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    position: absolute;
-    margin: 0px 40px;
+  width: 310px;
+  height: 200px;
+  padding: 20px 20px;
+  background-color: #c7fff8;
+  bottom: 50px;
+  text-align: center;
+  opacity: 85%;
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  position: absolute;
+  margin: 0px 40px;
 }
 
 #cover-text-button {
-    background-color: #00FFF0;
-    color: #0F827B;
-    border-radius: 25px;
-    padding: 10px 10px;
-    border: none;
-    font-weight: 500;
-    font-size: 20px;
+  background-color: #00fff0;
+  color: #0f827b;
+  border-radius: 25px;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 #cover-text-button:hover {
-    background-color: #0C6A63;
-    color: #00FFF0;
+  background-color: #0c6a63;
+  color: #00fff0;
 }
 
 @keyframes hero-zoom {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.01);
-    }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.01);
+  }
 }
 
 @media (max-width: 600px) {
-    #hero-image {
-        background: url('/assets/images/small-index.jpeg') no-repeat center center;
-    }
+  #hero-image {
+    background: url("/assets/images/small-index.jpeg") no-repeat center center;
+  }
 }
 
 /*PAGE HEADERS*/
 
 .page-header {
-    background-color:rgba(250, 250, 250, 0.5);
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    width: 800px;
-    margin: auto;
+  background-color: rgba(250, 250, 250, 0.5);
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  width: 800px;
+  margin: auto;
 }
 
 .classes-header {
-    background-color:rgba(255, 255, 255, 0.5);
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    width: 800px;
-    margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  width: 800px;
+  margin: auto;
 }
 
 .space {
-    height: 120px;
+  height: 120px;
 }
 
-.page-header h2, .classes-header h2 {
-    padding-top: 20px;
-    font-size: 48px;
-    color: #0C6A63;
+.page-header h2,
+.classes-header h2 {
+  padding-top: 20px;
+  font-size: 48px;
+  color: #0c6a63;
 }
 
-.page-header p, .classes-header p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.page-header p,
+.classes-header p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 600px) {
-    .page-header h2, .classes-header h2 {font-size: 32px;}
+  .page-header h2,
+  .classes-header h2 {
+    font-size: 32px;
+  }
 }
 
 /*WHO WE ARE SECTION*/
 
 .who-we-are {
-    background-color: #fafafa;
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    padding: 30px 0 50px 0;
-    margin: 20px;
+  background-color: #fafafa;
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  padding: 30px 0 50px 0;
+  margin: 20px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 64px;
-    padding: 20px;
+  text-align: center;
+  font-size: 64px;
+  padding: 20px;
 }
 
 .icons i {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 #handshake {
-    padding: 80px 0;
-    margin-bottom: 0;
-    float: right;
-    margin-right: 25px;
+  padding: 80px 0;
+  margin-bottom: 0;
+  float: right;
+  margin-right: 25px;
 }
 
 #brain {
-    padding: 100px 0;
-    margin-bottom: 0;
-    float: right;
-    margin-right: 30px;
+  padding: 100px 0;
+  margin-bottom: 0;
+  float: right;
+  margin-right: 30px;
 }
 
 .p-box {
-    padding: 20px 0;
-    font-size: 24px;
+  padding: 20px 0;
+  font-size: 24px;
 }
 
 @media (max-width: 800px) {
-    .who-we-are {margin: 10px;}
+  .who-we-are {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 600px) {
-    h1 {font-size: 32px;}
-    .p-box p {font-size: 16px;}
+  h1 {
+    font-size: 32px;
+  }
+  .p-box p {
+    font-size: 16px;
+  }
 }
 
 /*PROGRESS BARS SECTION*/
 
 .progress {
-    position: relative;
-    height: 30px;
-    margin-bottom: 4px;
-    border-radius: 10px;
+  position: relative;
+  height: 30px;
+  margin-bottom: 4px;
+  border-radius: 10px;
 }
 
 .percentage {
-    margin: auto;
+  margin: auto;
 }
 
 .progress-margin {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .progress span {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .progress-type {
-    position: absolute;
-    left: 0px;
-    color: #fafafa;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    background-color: rgba(25, 25, 25, 0.2);
+  position: absolute;
+  left: 0px;
+  color: #fafafa;
+  font-weight: 400;
+  padding: 3px 30px 2px 10px;
+  background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-stats-box {
-    margin: auto;
-    width: 800px;
+  margin: auto;
+  width: 800px;
 }
 
 .progress-stats p {
-    border-radius: 10px;
-    background-color: rgba(250, 250, 250, 0.5);
-    padding: 10px;
-    margin: 10px 0;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 0.5);
+  padding: 10px;
+  margin: 10px 0;
 }
 
 @media (max-width: 600px) {
-    .progress {height: 60px;}
-    .progress span {height: 60px; padding-top: 5px;}
-    #progress-stats {min-width: 250px;}
+  .progress {
+    height: 60px;
+  }
+  .progress span {
+    height: 60px;
+    padding-top: 5px;
+  }
+  #progress-stats {
+    min-width: 250px;
+  }
 }
 
 @media (max-width: 1000px) {
-    #progress-stats {margin: auto;}
+  #progress-stats {
+    margin: auto;
+  }
 }
 @media (min-width: 1000px) {
-    #progress-stats {min-width: 600px;}
+  #progress-stats {
+    min-width: 600px;
+  }
 }
 
 /*BENEFITS SECTION*/
 
 .benefits {
-    text-align: center;
-    background-color: #fafafa;
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    padding: 20px 0 50px 0;
-    margin: 20px;
+  text-align: center;
+  background-color: #fafafa;
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  padding: 20px 0 50px 0;
+  margin: 20px;
 }
 
 .benefits h2 {
-    padding-top: 20px;
-    font-size: 48px;
-    color: #0C6A63;
+  padding-top: 20px;
+  font-size: 48px;
+  color: #0c6a63;
 }
 
 .benefits h2 i {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .benefits p {
-    padding-top: 10px;
-    font-size: 24px;
+  padding-top: 10px;
+  font-size: 24px;
 }
 
 @media (max-width: 800px) {
-    .benefits {margin: 10px;}
+  .benefits {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 600px) {
-    .benefits h2 {font-size: 32px;}
-    .benefits p {font-size: 16px;}
+  .benefits h2 {
+    font-size: 32px;
+  }
+  .benefits p {
+    font-size: 16px;
+  }
 }
 
 /*PANIC SECTION*/
 
 .panic-p {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .panic-row {
-    background-color: #fafafa;
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    padding: 30px 0 50px 0;
-    margin: 20px;
+  background-color: #fafafa;
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  padding: 30px 0 50px 0;
+  margin: 20px;
 }
 
 .panic h2 {
-    text-align: center;
-    color: #0C6A63;
-    font-size: 48px;
-    padding-bottom: 20px;
+  text-align: center;
+  color: #0c6a63;
+  font-size: 48px;
+  padding-bottom: 20px;
 }
 
 .panic h2 i {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .panic-one-image {
-    height: 100%;
-    width: 100%;
-    background: url('/assets/images/benefits-one.jpeg') no-repeat center center;
-    border-radius: 25px;
+  height: 100%;
+  width: 100%;
+  background: url("/assets/images/benefits-one.jpeg") no-repeat center center;
+  border-radius: 25px;
 }
 
-.panic-one-section, .panic-two-section {
-    height: 800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.panic-one-section,
+.panic-two-section {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .panic-two-image {
-    height: 800px;
-    width: 100%;
-    background: url('/assets/images/benefits-two.jpeg') no-repeat center center;
-    border-radius: 25px;
+  height: 800px;
+  width: 100%;
+  background: url("/assets/images/benefits-two.jpeg") no-repeat center center;
+  border-radius: 25px;
 }
 
 @media (min-width: 760px) and (max-width: 1000px) {
-    .panic-p {font-size: 20px;}
+  .panic-p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 800px) {
-    .panic-row {margin: 10px;}
+  .panic-row {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 600px) {
-    .panic h2 {font-size: 32px;}
-    .panic-p {font-size: 16px;}
+  .panic h2 {
+    font-size: 32px;
+  }
+  .panic-p {
+    font-size: 16px;
+  }
 }
 
 /*CLASSES SECTION*/
 
 #sessions {
-    background-image: url("/assets/images/big-screen-classes.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    width: 66%;
-    margin: 0 auto;
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
-    font-family: "Exo", sans-serif;
+  background-image: url("/assets/images/big-screen-classes.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 66%;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  font-family: "Exo", sans-serif;
 }
 
 #sessions div {
-    color: #fafafa;
-    background-color: rgba(0,0,0,0.6);
-    padding: 25px 0 10px 0;
-    text-align: center;
-    height: 230px;
-    border: 4px solid;
-    border-color: rgba(255, 255, 255, 0.7);
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px 0 10px 0;
+  text-align: center;
+  height: 230px;
+  border: 4px solid;
+  border-color: rgba(255, 255, 255, 0.7);
 }
 
 #sessions div h2 {
-    font-size: 24px;
-    color: #fafafa;
+  font-size: 24px;
+  color: #fafafa;
 }
 
 #sessions div h3 {
-    font-size: 16px;
-    color: #fafafa;
+  font-size: 16px;
+  color: #fafafa;
 }
 
 @media (max-width: 600px) {
-    #sessions {width: 80%;}
-    #sessions div h2 {font-size: 16px;}
+  #sessions {
+    width: 80%;
+  }
+  #sessions div h2 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 800px) {
-    #classes-hero-outer {height: 1100px;}
-    #sessions {background-image: url("/assets/images/small-screen-classes.jpg");}
+  #classes-hero-outer {
+    height: 1100px;
+  }
+  #sessions {
+    background-image: url("/assets/images/small-screen-classes.jpeg");
+  }
 }
 
 @media (min-width: 800px) {
-    #sessions { grid-template-columns: repeat(3, 3fr); }
+  #sessions {
+    grid-template-columns: repeat(3, 3fr);
   }
+}
 
 /*TUTORS, CLASS INFO AND VENUES SECTION*/
 
 .venue {
-    grid-area: venue;
-  }
+  grid-area: venue;
+}
 
 .tutor {
-    grid-area: tutor;
+  grid-area: tutor;
 }
 
 .class-info {
-    grid-area: class-info;
+  grid-area: class-info;
 }
 
 .tutor {
-    border-radius: 25px;
-    background-color: #fafafa;
-    padding: 10px;
+  border-radius: 25px;
+  background-color: #fafafa;
+  padding: 10px;
 }
 
 .tutor-one {
-    background: url("/assets/images/tutor-one.jpeg") no-repeat center center;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin: auto;
-    padding-top: 30px;
+  background: url("/assets/images/tutor-one.jpeg") no-repeat center center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  padding-top: 30px;
 }
 
 .tutor-two {
-    background: url("/assets/images/tutor-two.jpeg") no-repeat center center;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    padding-top: 30px;
+  background: url("/assets/images/tutor-two.jpeg") no-repeat center center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding-top: 30px;
 }
 
 .tutor-three {
-    background: url("/assets/images/tutor-three.jpeg") no-repeat center center;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    padding-top: 30px;
+  background: url("/assets/images/tutor-three.jpeg") no-repeat center center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding-top: 30px;
 }
 
 .tutor-box {
-    margin: auto;
-    display: flex;
-    padding: 0 30px;
+  margin: auto;
+  display: flex;
+  padding: 0 30px;
 }
 
 .tutors-section {
-    font-family: "Exo", sans-serif;
-    display: grid;
-    gap: 0;
-    grid-template-areas:
+  font-family: "Exo", sans-serif;
+  display: grid;
+  gap: 0;
+  grid-template-areas:
     "venue venue"
     "tutor tutor"
     "class-info class-info";
 }
 
 .venue {
-    background-color: #fafafa;
-    height: 550px;
-    border-radius: 25px;
-    margin: 0 auto;
-    width: 93%;
-    border-style: solid;
-    border-color: #0C6A63;
+  background-color: #fafafa;
+  height: 550px;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 93%;
+  border-style: solid;
+  border-color: #0c6a63;
 }
 
 .class-info {
-    background-color: #fafafa;
-    border-radius: 25px;
-    font-size: 20px;
-    padding: 30px 0;
+  background-color: #fafafa;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 30px 0;
 }
 
 #class-info-one {
-    padding: 50px 30px;
+  padding: 50px 30px;
 }
 
 @media (max-width: 800px) {
-    .class-info {font-size: 16px;}
+  .class-info {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 800px) {
-    .tutors-section {grid-template-columns: 2fr 3fr;}
-    .venue {margin: auto;}
-    .tutor {margin: 10px}
-    .class-info {margin: 0 10px;}
-    #class-info-two {padding: 30px 20px;}
-    .tutor-two {margin: 30px auto;} .tutor-three {margin: 30px auto;}
+  .tutors-section {
+    grid-template-columns: 2fr 3fr;
+  }
+  .venue {
+    margin: auto;
+  }
+  .tutor {
+    margin: 10px;
+  }
+  .class-info {
+    margin: 0 10px;
+  }
+  #class-info-two {
+    padding: 30px 20px;
+  }
+  .tutor-two {
+    margin: 30px auto;
+  }
+  .tutor-three {
+    margin: 30px auto;
+  }
 }
 
 @media (min-width: 800px) {
-    .tutors-section {
-      grid-template-columns: 3fr 2fr;
-      grid-template-areas:
-        "venue tutor"
-        "class-info class-info";}
-    #tutor-section-one {margin-top: 30%;}
-    #tutor-section-two {
-        height: 550px;
-        padding: 40px 10px;}
-    .class-info {margin: 0 20px; padding: 30px 30px; height: 275px;}
-    .tutor-two, .tutor-three {margin: 10px auto;}
-    .tutor {
-        padding: 30px 10px;
-        height: 275px;
-        margin-right: 20px;}
+  .tutors-section {
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+      "venue tutor"
+      "class-info class-info";
+  }
+  #tutor-section-one {
+    margin-top: 30%;
+  }
+  #tutor-section-two {
+    height: 550px;
+    padding: 40px 10px;
+  }
+  .class-info {
+    margin: 0 20px;
+    padding: 30px 30px;
+    height: 275px;
+  }
+  .tutor-two,
+  .tutor-three {
+    margin: 10px auto;
+  }
+  .tutor {
+    padding: 30px 10px;
+    height: 275px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
-    #tutor-box {display: inline;}
-    .venue {margin-bottom: 20px;}
+  #tutor-box {
+    display: inline;
+  }
+  .venue {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1000px) {
-    .tutors-section {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas:
-        "venue tutor"
-        "venue class-info";
-    }
-    .class-info {margin: 10px 20px 0 0;}
-    #tutor-section-one, #tutor-section-two {margin: 0 20px 10px 0;}
-    #tutor-section-two {height: 275px;}
-    .tutor-two, .tutor-three {margin: auto;}
-    .venue {height: 570px;}
+  .tutors-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "venue tutor"
+      "venue class-info";
+  }
+  .class-info {
+    margin: 10px 20px 0 0;
+  }
+  #tutor-section-one,
+  #tutor-section-two {
+    margin: 0 20px 10px 0;
+  }
+  #tutor-section-two {
+    height: 275px;
+  }
+  .tutor-two,
+  .tutor-three {
+    margin: auto;
+  }
+  .venue {
+    height: 570px;
+  }
 }
 
 /*SIGN UP PAGE*/
 
 .signup-form {
-    background-color: rgba(250, 250, 250, 0.5);
-    border-radius: 25px;
-    font-family: "Exo", sans-serif;
-    width: 650px;
-    margin: auto;
-    padding-bottom: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  border-radius: 25px;
+  font-family: "Exo", sans-serif;
+  width: 650px;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .signup-form input {
-    border-radius: 10px;
-    margin: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .field {
-    width: 250px;
+  width: 250px;
 }
 
 .signup-form h2 {
-    color: #0C6A63;
-    padding: 20px 0 10px 0;
+  color: #0c6a63;
+  padding: 20px 0 10px 0;
 }
 
 .signup-form i {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .submit-button {
-    border-radius: 10px;
-    background-color: #00FFF0;
-    color: #0C6A63;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #00fff0;
+  color: #0c6a63;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 10px;
 }
 
 .submit-button:hover {
-    background-color:#0C6A63;
-    color: #00FFF0;
+  background-color: #0c6a63;
+  color: #00fff0;
 }
 
 @media (max-width: 600px) {
-    #first-name, #last-name, #email-address {width: 200px;}
-    .signup-form h2 {font-size: 24px;}
+  #first-name,
+  #last-name,
+  #email-address {
+    width: 200px;
+  }
+  .signup-form h2 {
+    font-size: 24px;
+  }
 }
 
 /*FOOTER*/
 
 footer {
-    background-color: #fafafa;
-    border-radius: 25px;
-    margin: 20px;
+  background-color: #fafafa;
+  border-radius: 25px;
+  margin: 20px;
 }
 
-footer p {
-    padding-bottom: 50px;
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
+#social-p {
+  padding-bottom: 50px;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
-footer p, footer ul {
-    margin-bottom: 0;
+footer p,
+footer ul {
+  margin-bottom: 0;
 }
-  
+
 .social-networks {
-    text-align: center;
-    padding: 0;
+  text-align: center;
+  padding: 0;
 }
 
 .social-networks li {
-    display: inline;
+  display: inline;
 }
-  
+
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 30px 5%;
-    color: #29BDB4;
+  font-size: 160%;
+  margin: 1%;
+  padding: 30px 5%;
+  color: #29bdb4;
 }
 
 .social-networks i:hover {
-    color: #0C6A63;
+  color: #0c6a63;
 }
 
 @media (max-width: 800px) {
-    footer {margin: 10px;}
+  footer {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 600px) {
-    .social-networks i {font-size: 110%;}
+  .social-networks i {
+    font-size: 110%;
+  }
 }
