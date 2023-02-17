@@ -2,7 +2,9 @@
 
 Relieve is a company based in Lichfield, Staffordshire that aspires to help the everyday person know more about mindfulness and meditation through its site information and available classes.
 
-![ Picture of the wedsite on different devices](/assets/images/readme-images/collection-of-pages.png "Relieves website")
+I have used markdown format for the headers and bullets, links and tables on this readme but found the img element to be more useful when controlling picture sizes on this document.
+
+<img src="assets/images/readme-images/collection-of-pages.png" width="50%" alt="Relieve website" style="display: block; margin: auto;">
 
 ## UX
 
@@ -69,13 +71,14 @@ The overall experience needs to feel calm, decluttered and peaceful.
 - The primary font "Exo" was chosen because it has a nice rounded edge to the lettering, there is nothing sharp that sticks out, adding to the calm feel.
 - The secondary font chosen is sans serif.
 
-![ Picture of text with Exo Font](/assets/images/readme-images/font.png "Exo Font")
+
+<img src="assets/images/readme-images/font.png" width="40%" alt="Exo Font" style="display: block; margin: auto;">
 
 #### Icons
 
 - All icons chosen are to describe the paragraph of text next to them, some have been taken out once viewed on a phone to help create space for the reading of the text.
 
-![ Picture of icons](/assets/images/readme-images/icons.png "Icons")
+<img src="assets/images/readme-images/icons.png" width="40%" alt="Icons" style="display: block; margin: auto;">
 
 #### Colours
 
@@ -85,23 +88,25 @@ The overall experience needs to feel calm, decluttered and peaceful.
 
 - The only real exception to this is on the benefits page, where there is the warm orange/brown background image of the jogger.
 
-![ Picture of colours used on site](/assets/images/readme-images/colours.png "Colour")
+<img src="assets/images/readme-images/colours.png" width="40%" alt="Colour" style="display: block; margin: auto;">
 
 #### Styling
 
 - Divs have been given rounded edges to again add to that calming feeling, we dont want sharp and aggresive.
 - This edging and spacing between divs and sections has been made consistent throughout the pages and content.
 
-![ Picture of curved corners](/assets/images/readme-images/curves.png "Curved corners")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/curves.png" width="40%" alt="Curved corners" style="margin: 0 5%">
 
-![ Picture of margins between elements](/assets/images/readme-images/margins.png "Margin spacing")
+  <img src="assets/images/readme-images/margins.png" width="40%" alt="Margin spacing" style="margin: 0 5%;">
+</div>
 
 #### Backgrounds
 
 - Either hero images relevant to the page have been shown, white, or off-white (#FAFAFA) have been used.
 - This is so that the site is not too distracting from the content and not add to stress levels of the viewer.
 
-![ Picture of hero image](/assets/images/signup-hero.jpeg "Hero image")
+<img src="assets/images/signup-hero.jpeg" width="60%" alt="Hero image" style="display: block; margin: auto;">
 
 #### Images
 
@@ -109,7 +114,7 @@ The overall experience needs to feel calm, decluttered and peaceful.
 - The Sign Up page image is an adventurous one, which represents the user moving forward with their life or doing something "out there". It also adds a sense of freedom.
 - The images of the tutors give familiarity to the user, and are positive smiling images, which could help them feel more comfortable.
 
-![ Picture of tutor two](/assets/images/tutor-two.jpeg "Tutor two 'Jane Doe'")
+<img src="assets/images/tutor-two.jpeg" width="20%" alt="Tutor two 'Jane Doe'" style="display: block; margin: auto;">
 
 ### Wireframes
 
@@ -156,7 +161,7 @@ A6
 
 Who else is there local to Lichfield, Staffordshire with similar business goals/models?
 
-Tarakmc.org/branch-classes/
+[Tarakmc](https://tarakmc.org/branch-classes/)
 
 Pros:
 They are a charity with a lot of background information, and ties to Buddhism, so you know you’re learning meditation properly.
@@ -164,7 +169,7 @@ They are a charity with a lot of background information, and ties to Buddhism, s
 Cons:
 Way too much information on the website. Way too many places to click to, too much on each page. Writing is small. Photo gallery images are not relevant, no images of the sessions themselves just of a building and a staircase? Donations link doesn’t open donations page.
 
-thebrightpath.co.uk/meditation-classes-Lichfield/
+[The Bright Path](https://thebrightpath.co.uk/meditation-classes-Lichfield/)
 
 Pros:
 Really positive videos with music to match. Brilliant content. Responsive design is very good. Lots of helpful content and it looks like they have an intriguing course, a great product.
@@ -196,7 +201,7 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
   - It is responsive, it condenses into a burger icon as the webpage is made smaller for tablets and phone devices.
   - The Navbar also responds by changing background and text colour as the user hovers over each page option.
 
-![ Picture of the Navigation Bar](/assets/images/readme-images/navigation-bar.png "The Navigation Bar")
+<img src="assets/images/readme-images/navigation-bar.png" width="80%" alt="The navigation bar" style="display: block; margin: auto;">
 
 - __Footer__
 
@@ -204,51 +209,51 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
   - I have also provided information about where the business is based, this will help with the SEO of the website, as people who live in Lichfield, Staffordshire are more likely to find this page.
 
-![ Picture of the Footer](/assets/images/readme-images/footer.png "The Footer")
+<img src="assets/images/readme-images/footer.png" width="80%" alt="The footer" style="display: block; margin: auto;">
 
 - __Logo__
 
   - The idea for the logo was to make the middle "e" a different colour son that it could be read in two different ways. Relieve and Re-Live.
   - Since the company is focused on empowering people, it made sense to include the idea of restarting your life with a clean slate or, re-living.
 
-![ Picture of the Logo](/assets/images/readme-images/logo.png "The Logo")
+<img src="assets/images/readme-images/logo.png" width="40%" alt="The logo" style="display: block; margin: auto;">
 
 - __The landing page hero image__
 
   - I wanted an image that was both happy and focused on meditation, the one I have found I think is brilliant because there is also a pregnant woman in the background, which represents inclusion.
 
-![ Picture of a group meditating](/assets/images/index-hero.jpeg "Meditation Group")
+<img src="assets/images/index-hero.jpeg" width="75%" alt="Meditation group" style="display: block; margin: auto;">
 
 - __Who we are section__
 
   - This section is a brief overview of the whole site, once the user views this they have more knowledge of what this site is to be used for.
 
-![ Picture of "who we are" section](/assets/images/readme-images/who-we-are.png "The Who We Are Section")
+<img src="assets/images/readme-images/who-we-are.png" width="60%" alt="The Who We Are Section" style="display: block; margin: auto;">
 
 - __Benefits__
 
   - The hero image of this website is a jogger, a perfect example of someone with good health. Here I wanted an inspiring, motivational image that also had very different colours and gave the page a warm comfortable feeling.
 
-![ Picture of a jogger](/assets/images/benefits-hero.jpg "Jogger")
+<img src="assets/images/benefits-hero.jpg" width="75%" alt="Jogger" style="display: block; margin: auto;">
 
 - __Statistic Progress Bars__
 
   - I wanted to use a visionary example for people visiting the page for the first time, rather than just reading lots of paragraphs. I thought I'd start with the higher number statistics, which really nail down the importance of good mental health.
 
-![ Picture of progress bars](/assets/images/readme-images/progress-bars.png "Progress Bars")
+<img src="assets/images/readme-images/progress-bars.png" width="40%" alt="Progress bars" style="display: block; margin: auto;">
 
 - __Benefits Section__
 
   - I also wanted to add a section that was big, bold, and again nailed some of the important positives attached with learning how to meditate and be mindful.
 
-![ Picture of benefits section](/assets/images/readme-images/benefits-section.png "The Benefits Section")
+<img src="assets/images/readme-images/benefits-section.png" width="40%" alt="The Benefits Section" style="display: block; margin: auto;">
 
 - __Panic Attack Help Section__
 
   - I have the personal experience of panic attacks, and know just how important this information regarding panic attacks is. This being free, and visible on our site almost as an added on feature, showcases one of the powerful ways in which meditation and mindfulness can be used in a worrying situation/scenario and what it can achieve.
   - If someone doesn't feel comfortable coming to the sessions, they can take this information away and use it. Then at a later date when they have more confidence in the process, they will be more likely to make contact.
 
-![ Picture of panic section](/assets/images/readme-images/panic.png "The Panic Section")
+<img src="assets/images/readme-images/panic.png" width="75%" alt="The Panic Section" style="display: block; margin: auto;">
 
 - __Classes__
 
@@ -258,14 +263,15 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
 - Here I've used two different images, which show up dependant on the size of the device being used. One is vertical, the other horizontal. I've contained the six classes available in a 3x3 grid, which changes to a 2x4 grid on smaller screens. Information included is the venue, tutor, time and date.
 
-![ Picture of classes available](/assets/images/readme-images/classes-section.png "The Classes Available")
-![ Picture of classes available](/assets/images/readme-images/classes-section-2.png "Smaller Screen Classes Available")
+<img src="assets/images/readme-images/classes-section.png" width="75%" alt="The classes available" style="display: block; margin: auto;">
+
+<img src="assets/images/readme-images/classes-section-2.png" width="40%" alt="Smaller screen classes available" style="display: block; margin: auto;">
 
 - __IFrames__
 
   - When I first encountered IFrames I knew I wanted to implement them on this site. They're perfect for people wanting to explore the surrounding area of where they're going to. People can decide which driving route to take and better plan their journey, or simply look for its position in correlation with other places they know.
 
-![ Picture of IFrame](/assets/images/readme-images/iframe.png "IFrame")
+<img src="assets/images/readme-images/iframe.png" width="40%" alt="IFrame" style="display: block; margin: auto;">
 
 - __Tutor Information__
 
@@ -273,14 +279,14 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
   - I also included some information regarding the people teaching the sessions, whilst also adding a bit of info about the class itself.
   - The IFrame, image of the tutors, and information have been palced within a grid. This grid is then responsive dependant on screen size being used and displays so that you can visibly see all the information you need to.
 
-![ Picture of tutor section](/assets/images/readme-images/tutor-section.png "IFrames and Tutors")
+<img src="assets/images/readme-images/tutor-section.png" width="60%" alt="IFrames and Tutors" style="display: block; margin: auto;">
 
 - __Sign Up Page__
 
   - The Sign Up page is for anyone who wants to receive the weekly newsletter will contain advice and information whilst also kindly reminding members of the classes available.
   - The form itself is made up of 3 fields, first name, last name and email. All have the required attribute meaning you cannot submit without the information required.
 
-![ Picture of sign up page](/assets/images/readme-images/signup-page.png "Sign Up Page")
+<img src="assets/images/readme-images/signup-page.png" width="75%" alt="The sign up page" style="display: block; margin: auto;">
 
 ### Features Left to Implement
 
@@ -290,7 +296,7 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
   - As this business is just starting, it doesn't make sense to implement this page just yet, we could encourage users to share their stories which would empower them, and give them a sense of accomplishment, whilst also letting future users know that this is a process they can trust.
 
-![ Picture of stories page](/assets/images/readme-images/stories-wireframe.png "What would have been the stories page")
+<img src="assets/images/readme-images/stories-wireframe.png" width="40%" alt="What would have been the stories page" style="display: block; margin: auto;">
 
 - __Unhelpful thinking section__
 
@@ -312,197 +318,213 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
 First, I've opened the site using developer tools on the IPhone 5/SE emulator. I've chosen this as it is the smallest screen size available. The first most noticeable thing is when the pages are shown on screens below 800, it doesn't work to have margins of 20px, instead 10px is better, to make more use of the scree space available. Also I noticed that the px-5 bootstrap calling was adding way too much padding to the who we are section, so I've changed this to px-4 which seems to be a lot better suited.
 
-![ Picture of homepage on IPhone](/assets/images/readme-images/home-iphone.png "Homepage on a IPhone")
+<img src="assets/images/readme-images/home-iphone.png" width="30%" alt="Homepage on a IPhone" style="display: block; margin: auto;">
 
 The benefits page seems to work fine, the height change in the progress bar is working as intended, allowing for the text to fall to the next line without disturbing the bars shape.
 
-![ Picture of benefits page on IPhone](/assets/images/readme-images/benefits-iphone.png "Benefits page on IPhone")
+<img src="assets/images/readme-images/benefits-iphone.png" width="30%" alt="Benefits page on IPhone" style="display: block; margin: auto;">
 
 On the classes page, I noticed one issue. The bottom of the sessions section was cut off as the hero outer element had a height restriction. I had called for the height to change on smaller screens to about 1000px, but needed to change this to 1100px in order to see everything on this screen. After this change, the whole page was perfect, with margins at 10px, same as the other pages.
 
-![ Picture of sessions issue](/assets/images/readme-images/sessions-issue.png "Issue on sessions section")
-![ Picture of fixed issue](/assets/images/readme-images/sessions-fixed.png "Fixed sessions section")
-![ Picture of classes page, good spacing](/assets/images/readme-images/classes-iphone.png "Classes page on IPhone")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/sessions-issue.png" width="40%" alt="Issue on sessions screen" style="margin: 0 5%">
+
+  <img src="assets/images/readme-images/sessions-fixed.png" width="40%" alt="Fixed sessions section" style="margin: 0 5%;">
+</div>
+
+<img src="assets/images/readme-images/classes-iphone.png" width="30%" alt="Classes page on IPhone" style="display: block; margin: auto;">
 
 Thankfully the sign up page doesn't have too much information on it, the form is visible and again the spacing is good too.
 
-![ Picture of sign up page](/assets/images/readme-images/signup-iphone.png "Sign up page on IPhone")
+<img src="assets/images/readme-images/signup-iphone.png" width="30%" alt="Sign up page on IPhone" style="display: block; margin: auto;">
 
 Next, I've opened the site the same way on the IPad emulator. I've chosen this as it is a good middle sized screen between desktop and mobile. The burger icon is still in use on this webpage as without it the page links with the logo would be too wide for the screen. It opens, and the options are clickable and working. The margin of 10px is still being used as this isn't too large of a screen so we still want to make best use of the page. The slightly larger 800-1000px width tablets will have 20px margins.
 
-![ Picture of homepage on IPad](/assets/images/readme-images/home-ipad.png "Homepage on IPad")
+<img src="assets/images/readme-images/home-ipad.png" width="40%" alt="Homepage on IPad" style="display: block; margin: auto;">
 
 The benefits page also looks good so far. The progress bars now have less height as they no longer need it, and the images come into focus on the panic section, which lookd very presentable and readable.
 
-![ Picture of Progress bars on Ipad](/assets/images/readme-images/benefits-ipad.png "Progress bars on IPad")
-![ Picture of Panic section on IPad](/assets/images/readme-images/panic-ipad.png "Panic section on IPad")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/benefits-ipad.png" width="40%" alt="Progress bars on IPad" style="margin: 0 5%">
+
+  <img src="assets/images/readme-images/panic-ipad.png" width="40%" alt="Panic section on IPad" style="margin: 0 5%;">
+</div>
 
 Everything is as it should be now on the classes page too, margin is the same as the benefits page and the grid has not yet changed.
 
-![ Picture of sessions section on IPad](/assets/images/readme-images/sessions-ipad.png "Sessions section on IPad")
-![ Picture of tutor section on IPad](/assets/images/readme-images/tutor-ipad.png "Tutor section on IPad")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/sessions-ipad.png" width="40%" alt="Sessions section on IPad" style="margin: 0 5%">
+
+  <img src="assets/images/readme-images/tutor-ipad.png" width="40%" alt="Tutor section on IPad" style="margin: 0 5%;">
+</div>
 
 This is the grid layout on the slightly larger screens, like the Surface Pro 7:
 
-![ Picture of grid layout changes](/assets/images/readme-images/tutor-surface7.png "Tutor section between 800-1000px width screens")
+<img src="assets/images/readme-images/tutor-surface7.png" width="30%" alt="Tutor section between 800-1000px width screens" style="display: block; margin: auto;">
 
 The sign up page looks as good as it did on the smallest screen.
 
-![ Picture of sign up page on IPad](/assets/images/readme-images/signup-ipad.png "Sign up page on IPad")
+<img src="assets/images/readme-images/signup-ipad.png" width="40%" alt="Sign up page on IPad" style="display: block; margin: auto;">
 
 Last, I've opened the website on my normal desktop screen. The homepage looks as it should:
 
-![ Picture of homepage on desktop](/assets/images/readme-images/home-desktop.png "Homepage on a large device")
+<img src="assets/images/readme-images/home-desktop.png" width="40%" alt="Homepage on a large device" style="display: block; margin: auto;">
 
 The benefits page also looks good on desktop screens.
 
-![ Picture of benefits page on desktop](/assets/images/readme-images/benefits-desktop-1.png "Benefits page on a large device")
-![ Picture of benefits page on desktop](/assets/images/readme-images/benefits-desktop-2.png "Benefits page on a large device")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/benefits-desktop-1.png" width="40%" alt="Benefits page on a large device" style="margin: 0 5%">
+
+  <img src="assets/images/readme-images/benefits-desktop-2.png" width="40%" alt="Benefits page on a large device" style="margin: 0 5%;">
+</div>
 
 The layout of the grid has changed again for the tutors section on desktop screens, but the 20px margin remains. The image has also changed for the sessions background.
 
-![ Picture of classes page on desktop](/assets/images/readme-images/classes-desktop-1.png "Classes page on a large device")
-![ Picture of classes page on desktop](/assets/images/readme-images/classes-desktop-2.png "Classes page on a large device")
+<div style="display: flex;">
+  <img src="assets/images/readme-images/classes-desktop-1.png" width="40%" alt="Classes page on a large device" style="margin: 0 5%">
+
+  <img src="assets/images/readme-images/classes-desktop-2.png" width="40%" alt="Classes page on a large device" style="margin: 0 5%;">
+</div>
 
 The sign up page looks as it should.
 
-![ Picture of sign up page on big screen](/assets/images/readme-images/signup-desktop.png "Sign up page on a large device")
+<img src="assets/images/readme-images/signup-desktop.png" width="40%" alt="Sign up page on a large device" style="display: block; margin: auto;">
 
 The following section is the testing of each element.
 
 The first image is of the homepage on a larger screen, we can see that the cover text box is on the right. But when we look at the second image with is slightly larger than 600 pixels wide, the cover box has now been centered. On the last image, which is under 600 pixels, you can see that the image is different in its placement. I cropped the original image and called this on smaller screens so when viewed on mobile, the main woman is still visible, as opposed to seeing the blank space between people and not knowing what the image was originally.
 
-![ Picture of homepage on big screen](/assets/images/readme-images/homepage-big.png "Homepage on a large device")
+<img src="assets/images/readme-images/homepage-big.png" width="40%" alt="Homepage on a large device" style="display: block; margin: auto;">
 
 But when we look at this second image, which is slightly larger than 600 pixels wide, the cover box has now been centered. 
 
-![ Picture of homepage on screen smaller than 1000 pixels wide](/assets/images/readme-images/homepage-med.png "Homepage on a medium sixed device")
+<img src="assets/images/readme-images/homepage-med.png" width="20%" alt="Homepage on a medium sixed device" style="display: block; margin: auto;">
 
 On the last image, which is under 600 pixels, you can see that the image is different in its placement. I cropped the original image and called this on smaller screens so when viewed on the minimum width of 320 pixels wide, the main woman is still visible, as opposed to seeing the blank space between people and not knowing what the image was originally.
 
-![ Picture of homapage on screen smaller than 600 pixels wide](/assets/images/readme-images/homepage-small.png "Homepage on a small device")
+<img src="assets/images/readme-images/homepage-small.png" width="20%" alt="Homepage on a small device" style="display: block; margin: auto;">
 
 The Navbar buttons change as required when hovered over, the background colour changes to the darker shade and the text colour changes to a lighter shade so the user knows they have scrolled over a clickable link.
 
-![ Picture of link before hover](/assets/images/readme-images/link-before.png "Link before hover")
+<img src="assets/images/readme-images/link-before.png" width="80%" alt="Link before hover" style="display: block; margin: auto;">
 
 This is the case throughout the site on clickable buttons, like the one in the cover text box and submit button on the signup form.
 
-![ Picture of link after hover](/assets/images/readme-images/link-after.png "Link after hover")
+<img src="assets/images/readme-images/link-after.png" width="80%" alt="Link after hover" style="display: block; margin: auto;">
 
 The only slightly different one is the logo, the word "relieve" is deliberatly broken up into the phrase "re-live". 
 
-![ Picture of logo before hover](/assets/images/readme-images/logo-before.png "Logo before hover")
+<img src="assets/images/readme-images/logo-before.png" width="50%" alt="Logo before hover" style="display: block; margin: auto;">
 
 Until you hover over it and all the letters are the same colour.
 
-![ Picture of logo after hover](/assets/images/readme-images/logo-after.png "Logo after hover")
+<img src="assets/images/readme-images/logo-after.png" width="50%" alt="Logo after hover" style="display: block; margin: auto;">
 
 I've added a size change to the logo that works perfectly. This is it before the change.
 
-![ Picture of logo on big screen](/assets/images/readme-images/logo-big-text.png "Logo on big screen")
+<img src="assets/images/readme-images/logo-big-text.png" width="60%" alt="Logo on big screen" style="display: block; margin: auto;">
 
 And this is it after, on the smallest screen width of 320 pixels. You'll notice that this now means the burger icon is on the same line still, instead of being pushed down and the links not being all visible when hovered over.
 
-![ Picture of logo on smallest screen](/assets/images/readme-images/logo-small-text.png "Logo on smallest screen")
+<img src="assets/images/readme-images/logo-small-text.png" width="30%" alt="Logo on smallest screen" style="display: block; margin: auto;">
 
 On the who we are section there are two icons, used to give the reader some context, but not necessary on smaller screens where there is limited space as it is.
 
-![ Picture of icons](/assets/images/readme-images/who-we-are-icons.png "Who we are icons")
+<img src="assets/images/readme-images/who-we-are-icons.png" width="40%" alt="Who we are icons" style="display: block; margin: auto;">
 
 Here you can see the section on smaller screens (below width 600 pixels) doesn't show the icons.
 
-![ Picture of who we are section, icons not visible](/assets/images/readme-images/who-we-are-no-icons.png "Who we are section without icons")
+<img src="assets/images/readme-images/who-we-are-no-icons.png" width="40%" alt="Who we are section without icons" style="display: block; margin: auto;">
 
 The navbar unfortunately isn't functional on smaller screens, as the width simply isn't enough. To combat this we have the collapsable burger icon.
 
-![ Picture of burger icon](/assets/images/readme-images/burger.png "Burger icon")
+<img src="assets/images/readme-images/burger.png" width="20%" alt="Burger icon" style="display: block; margin: auto;">
 
 When clicked, the burger icon displays the same webpage anchor items but vertically instead.
 
-![ Picture of clicked burger icon, webpages displayed vertically](/assets/images/readme-images/burger-pages.png "Burger icon clicked")
+<img src="assets/images/readme-images/burger-pages.png" width="20%" alt="Burger icon clicked" style="display: block; margin: auto;">
 
 Here you can see the difference when the footer icons are displayed on a large screen ...
 
-![ Picture of footer icons](/assets/images/readme-images/footer-big.png "Footer icons")
+<img src="assets/images/readme-images/footer-big.png" width="80%" alt="Footer icons" style="display: block; margin: auto;">
 
 ... and on a smaller screen. The gap between is a percentage rather than an actual measurement, this means it's completely responsive.
 
-![ Picture of small gap footer icons](/assets/images/readme-images/footer-med.png "Footer icons on small screen")
+<img src="assets/images/readme-images/footer-med.png" width="60%" alt="Footer icons on small screen" style="display: block; margin: auto;">
 
 On the smallest screens, I've made the icons font size smaller, to stop them from displaying on a different line.
 
-![ Picture of small footer icons](/assets/images/readme-images/footer-small.png "Footer icons smaller font size")
+<img src="assets/images/readme-images/footer-small.png" width="60%" alt="Footer icons smaller font size" style="display: block; margin: auto;">
 
 The progress bars on the "Benefits" page are automatically left center, meaning you can view the jogger in the background image.
 
-![ Picture of progress bars on big screen](/assets/images/readme-images/progress-big.png "Progress bars on big screen")
+<img src="assets/images/readme-images/progress-big.png" width="75%" alt="Progress bars on big screen" style="display: block; margin: auto;">
 
 But when made smaller, this changes to being fully centered. Note that the background image doesn't stay centered but instead moves with the right hand side of the screen, meaning on the smallest screens, the jogger is still visible.
 
-![ Picture of progress bars on small screens](/assets/images/readme-images/progress-med.png "Progress bars on small screen")
+<img src="assets/images/readme-images/progress-med.png" width="40%" alt="Progress bars on small screen" style="display: block; margin: auto;">
 
 The progress. bars width is a percentage so changes with the width of the screen, and the height is larger when on smallest screens so that if the text goes onto the next line it is still within the bar.
 
-![ Picture of progress bar on smallest screen](/assets/images/readme-images/progress-small.png "Progress bar extra height")
+<img src="assets/images/readme-images/progress-small.png" width="30%" alt="Progress bar extra height" style="display: block; margin: auto;">
 
 When the links within this section are clicked, it takes the user onto the source informations website.
 
 The benefits section doesn't change too much between big and large screens, but the height is responsive and changes with the text wrapping.
 
-![ Picture of benefits section on big screen](/assets/images/readme-images/benefits-big.png"Benefits section on big screen")
+<img src="assets/images/readme-images/benefits-big.png" width="50%" alt="Benefits section on big screen" style="display: block; margin: auto;">
 
-![ Picture of benefits section on small screen](/assets/images/readme-images/benefits-small.png "Benefits section on small screen")
+<img src="assets/images/readme-images/benefits-small.png" width="30%" alt="Benefits section on small screen" style="display: block; margin: auto;">
 
 With the panic attack help section, the images either side disappear on smaller screens due to availability of space. 
 
-![ Picture of panic section on small screen](/assets/images/readme-images/panic-big.png "Panic section on small screen")
+<img src="assets/images/readme-images/panic-big.png" width="50%" alt="Panic section on small screen" style="display: block; margin: auto;">
 
 The height in this section is also responsive.
 
-![ Picture of panic section on small screen](/assets/images/readme-images/panic-small.png "Panic section on small screen")
+<img src="assets/images/readme-images/panic-small.png" width="40%" alt="Panic section on small screen" style="display: block; margin: auto;">
 
 In the sessions section of the classes page, there are several changes through screen sizes. The most obvious one is the change of image from large screen to small.
 
-![ Picture of sessions section on a large screen](/assets/images/readme-images/sessions-big.png "Sessions section, large screen")
+<img src="assets/images/readme-images/sessions-big.png" width="40%" alt="Sessions section, large screen" style="display: block; margin: auto;">
 
 Note there are also differences in the grid format. It changes from 3x3 to 2x4.
 
-![ Picture of sessions section on medium screen](/assets/images/readme-images/sessions-med.png "Sessions section, medium screen")
+<img src="assets/images/readme-images/sessions-med.png" width="20%" alt="Sessions section, medium screen" style="display: block; margin: auto;">
 
 On smallest screen sizes the header elements of the sessions have a smaller font size, so the divs aren't pushed too far wide of view.
 
-![ Picture of sessions section with small header](/assets/images/readme-images/sessions-small.png "Small header on session section")
+<img src="assets/images/readme-images/sessions-small.png" width="20%" alt="Small header on session section" style="display: block; margin: auto;">
 
 The next section is even more complicated. On larger screens, I wanted the tutor image and information on the right whilst having the iframe element on the left.
 
-![ Picture of tutor section on large screen](/assets/images/readme-images/tutor-big.png "Tutor section, large screen")
+<img src="assets/images/readme-images/tutor-big.png" width="75%" alt="Tutor section, large screen" style="display: block; margin: auto;">
 
 The issue with this is when it is shown on a medium sixed screen (between 600 -1000 pixels wide), the writing extends quite far and so the iframe is stretched, also the second tutor section has two images inside.
 
 To fix this I have made the two images view vertically, and pushed the text onto the next line, using the grid-column-area commands.
 
-![ Picture of tutor section on medium screen](/assets/images/readme-images/tutor-med.png "Tutor section medium screen")
+<img src="assets/images/readme-images/tutor-med.png" width="40%" alt="Tutor section medium screen" style="display: block; margin: auto;">
 
 On smallest screens, I've made it so each element displays vertically. All the information on all screen sizes is centered and the height properties change with the screen size.
 
-![ Picture of tutor section on small screen](/assets/images/readme-images/tutor-small.png "Tutor section, small screen")
+<img src="assets/images/readme-images/tutor-small.png" width="30%" alt="Tutor section, small screen" style="display: block; margin: auto;">
 
 On the sign up page, there are only really two changes. 
 
-![ Picture of sign up page on big screen](/assets/images/readme-images/sign-big.png "Sign up page, big screen")
+<img src="assets/images/readme-images/sign-big.png" width="40%" alt="Sign up page, big screen" style="display: block; margin: auto;">
 
 The input boxes have a width restriction on small screens so they don't outgrow their div, and the header text is made smaller. 
 
-![ Picture of sign up page on small screen](/assets/images/readme-images/sign-small.png "Sign up page, small screen")
+<img src="assets/images/readme-images/sign-small.png" width="30%" alt="Sign up page, small screen" style="display: block; margin: auto;">
 
 The form also has required fields, with types on the inputs so that only the correct format can be entered.
 
-![ Picture of error message](/assets/images/readme-images/sign-error-1.png "Incorrect data entered")
+<img src="assets/images/readme-images/sign-error-1.png" width="30%" alt="Incorrect data entered" style="display: block; margin: auto;">
 
 The form also wont allow information to not be submitted, as all fields have the required attribute.
 
-![ Picture of error message](/assets/images/readme-images/sign-error-2.png "No data entered, but required")
+<img src="assets/images/readme-images/sign-error-2.png" width="30%" alt="No data entered, but required" style="display: block; margin: auto;">
 
 ### Validator Testing 
 
@@ -659,12 +681,9 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 - All icons were obtained from fontawesome.com.
 
-Technical help?
+
 SUBMIT BUTTON CONFIRMATION
 ALT TEXT
-
-Mentor help?
-NAVBAR SCROLLING DISTURBED?
 
 LIGHTHOUSE, AIM FOR 70-90 SCORE
 INSTALL PRETTIER ON GITPOD AND FORMAT
