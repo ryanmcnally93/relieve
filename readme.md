@@ -676,28 +676,28 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 ### Media
 
-- All of the following images are from pexels.com, below is a list of the image names and the author who posted them on pexels.com.
+- All of the following images are from pexels.com, below is a list of the image names and the author who posted them on [pexels.com.](https://pexels.com)
 
-- index-hero.jpeg, small-index.jpeg - Gustavo Fring.
+- index-hero.jpeg, small-index.jpeg - [Gustavo Fring.](https://www.pexels.com/@gustavo-fring/)
 
-- benefits-hero.jpg, tutor-three.jpeg - Pixabay.
+- benefits-hero.jpg, tutor-three.jpeg - [Pixabay.](https://www.pexels.com/@pixabay/)
 
-- benefits-one.jpeg - Ketut Subiyanto.
+- benefits-one.jpeg - [Ketut Subiyanto.](https://www.pexels.com/@ketut-subiyanto/)
 
-- benefits-two.jpeg - Liza Summer.
+- benefits-two.jpeg - [Liza Summer.](https://www.pexels.com/@liza-summer/)
 
-- big-screen-classes.jpeg - Oluremi Adebayo.
+- big-screen-classes.jpeg - [Oluremi Adebayo.](https://www.pexels.com/@oluremi-adebayo-1507823/)
 
-- small-screen-classes.jpeg - Suraphat Nuea-on.
+- small-screen-classes.jpeg - [Suraphat Nuea-on.](https://www.pexels.com/@suraphat/)
 
-- tutor-two.jpeg - Andrea Piacquadio.
+- tutor-two.jpeg - [Andrea Piacquadio.](https://www.pexels.com/@olly/)
 
-- signup-hero.jpeg - Hedenborg Ludvig.
+- signup-hero.jpeg - [Hedenborg Ludvig.](https://www.pexels.com/@ludvighedenborg/)
 
-- This picture was obtained on unsplash.com/s/photos/portraits
-- tutor-one.jpeg - Jurica Koletić.
+- This picture was obtained on [unsplash.com](https://unsplash.com/)
+- tutor-one.jpeg - [Jurica Koletić.](https://unsplash.com/@juricakoletic)
 
-- All icons were obtained from fontawesome.com.
+- All icons were obtained from [fontawesome.com.](https://fontawesome.com)
 
 ### Acknowledgements
 
@@ -717,7 +717,6 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 [Sign up](/assets/images/readme-images/signup-lighthouse.png)
 
-LAST PHONE LIST CHECKS
-DEPLOYMENT
+DEPLOYMENT WITH PASS AND MERIT CHECKS
 FAMILY USER STORIES AND ANSWERS
 SPELLCHECK MD
