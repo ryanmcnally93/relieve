@@ -646,7 +646,25 @@ There are no bugs unfixed to my knowledge.
 
 ## Deployment
 
-TO DO AT VERY END
+This project was developed using Gitpod, committed to git and pushed using the built in function within Gitpod.
+
+To deploy this page, I followed the following steps.
+
+1. Log into GitHub.
+
+2. Select projectone? from list of repositories.
+
+3. From the top menu items, select settings.
+
+4. Scroll down to the GitHub Pages Section.
+
+5. Under Source click the drop-down menu labelled None and select Master Branch.
+
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+At the time of submitting this project, the Development Branch and Master Branch were identical.
 
 <!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
@@ -716,7 +734,3 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 [Classes](/assets/images/readme-images/classes-lighthouse.png)
 
 [Sign up](/assets/images/readme-images/signup-lighthouse.png)
-
-DEPLOYMENT WITH PASS AND MERIT CHECKS
-FAMILY USER STORIES AND ANSWERS
-SPELLCHECK MD
