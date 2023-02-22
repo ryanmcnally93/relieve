@@ -2,7 +2,7 @@
 
 Relieve is a company based in Lichfield, Staffordshire that aspires to help the everyday person know more about mindfulness and meditation through its site information and available classes.
 
-I have used markdown format for the headers and bullets, links and tables on this readme but found the img element to be more useful when controlling picture sizes on this document.
+I have used markdown format for the headers and bullets, links and tables on this readme, but found the img element to be more useful when controlling picture sizes on this document.
 
 <img src="assets/images/readme-images/collection-of-pages.png" width="50%" alt="Relieve website" style="display: block; margin: auto;">
 
@@ -10,7 +10,7 @@ I have used markdown format for the headers and bullets, links and tables on thi
 
 ### Project Goal
 
-To improve the average persons knowledge of mindfulness and meditation, and the positive impact it can potentially have on their mental health.
+To improve the average person's knowledge of mindfulness and meditation, and the positive impact it can potentially have on their mental health.
 
 #### Patient Goals
 
@@ -47,7 +47,7 @@ Maybe the company could invest time into doing school presentations, to create b
 
 As someone who struggles with anxiety, I want:
 - Calming, spacious UX that isn't cluttered and therefore stressful
-- Peace enducing colours to subconsciously add to the sites serenity.
+- Peace inducing colours to subconsciously add to the sites serenity.
 - To learn a bit about why I feel the way I feel and how to get better
 - To know where my classes are and how to get there, so I feel safe
 
@@ -56,7 +56,7 @@ As someone who struggles with depression, I want:
 - To be ensured that people gain happiness from the classes
 - Something that regularly makes me feel good as opposed to a one-time fix, something that stays with me for longer
 
-As a relative or friend of a struggler, I want:
+As a relative or friend of someone who struggles, I want:
 - To know where classes are and what times they are
 - To know that my friend/relative is going to have an educational but fun experience
 - To learn a bit myself so I can be of better help to my friend/relative
@@ -64,7 +64,7 @@ As a relative or friend of a struggler, I want:
 
 ### Design Choices
 
-The overall experience needs to feel calm, decluttered and peaceful.
+The overall experience needs to feel calm, uncluttered and peaceful.
 
 #### Fonts
 
@@ -92,7 +92,7 @@ The overall experience needs to feel calm, decluttered and peaceful.
 
 #### Styling
 
-- Divs have been given rounded edges to again add to that calming feeling, we dont want sharp and aggresive.
+- Divs have been given rounded edges to again add to that calming feeling, we don't want sharp and aggressive.
 - This edging and spacing between divs and sections has been made consistent throughout the pages and content.
 
 <div style="display: flex;">
@@ -135,27 +135,51 @@ These wireframes were created using Balsamiq:
 
 #### Q1 What makes a good website experience?
 
-A1
+Person with Depression:
+
+Person with Anxiety:
+
+Person with relative/friend of someone who struggles:
 
 #### Q2 What information are you looking for?
 
-A2
+Person with Depression:
+
+Person with Anxiety:
+
+Person with relative/friend of someone who struggles:
 
 #### Q3 Where, on a site, do you visit first?
 
-A3
+Person with Depression:
+
+Person with Anxiety:
+
+Person with relative/friend of someone who struggles:
 
 #### Q4 Would you use this?
 
-A4
+Person with Depression:
+
+Person with Anxiety:
+
+Person with relative/friend of someone who struggles:
 
 #### Q5 Why?
 
-A5
+Person with Depression:
+
+Person with Anxiety:
+
+Person with relative/friend of someone who struggles:
 
 #### Q6 What changes can I make?
 
-A6
+Person with Depression:
+
+Person with Anxiety:
+
+Person with relative/friend of someone who struggles:
 
 ### Competitor Review
 
@@ -189,7 +213,7 @@ This roadmap indicates the importance and viability of specific opportunities.
 | Showcase images from classes   | 1        | 1
 | Show them positive feedback from other users   | 4        | 1
 
-As mentioned before, the stories page isn't neccessary just yet as we don't have previous users feedback to use yet. So that and images from classes aren't necessary yet.
+As mentioned before, the stories page isn't necessary just yet as we don't have previous users feedback to use yet. So that and images from classes aren't necessary yet.
 
 ## Features 
 
@@ -300,7 +324,7 @@ As mentioned before, the stories page isn't neccessary just yet as we don't have
 
 - __Unhelpful thinking section__
 
-    We could implement a page on unhelpful thinking habits. This could include black and white thinking and generalisations, to help the user see what they are doing day-to-day in their head and why it is unhelpful.
+    We could implement a page on unhelpful thinking habits. This could include black and white thinking and generalizations, to help the user see what they are doing day-to-day in their head and why it is unhelpful.
 
 - __Classes Backend__
 
@@ -342,7 +366,7 @@ Next, I've opened the site the same way on the IPad emulator. I've chosen this a
 
 <img src="assets/images/readme-images/home-ipad.png" width="40%" alt="Homepage on IPad" style="display: block; margin: auto;">
 
-The benefits page also looks good so far. The progress bars now have less height as they no longer need it, and the images come into focus on the panic section, which lookd very presentable and readable.
+The benefits page also looks good so far. The progress bars now have less height as they no longer need it, and the images come into focus on the panic section, which looked very presentable and readable.
 
 <div style="display: flex;">
   <img src="assets/images/readme-images/benefits-ipad.png" width="40%" alt="Progress bars on IPad" style="margin: 0 5%">
@@ -408,11 +432,11 @@ The Navbar buttons change as required when hovered over, the background colour c
 
 <img src="assets/images/readme-images/link-before.png" width="80%" alt="Link before hover" style="display: block; margin: auto;">
 
-This is the case throughout the site on clickable buttons, like the one in the cover text box and submit button on the signup form.
+This is the case throughout the site on clickable buttons, like the one in the cover text box and submit button on the sign-up form.
 
 <img src="assets/images/readme-images/link-after.png" width="80%" alt="Link after hover" style="display: block; margin: auto;">
 
-The only slightly different one is the logo, the word "relieve" is deliberatly broken up into the phrase "re-live". 
+The only slightly different one is the logo, the word "relieve" is deliberately broken up into the phrase "re-live". 
 
 <img src="assets/images/readme-images/logo-before.png" width="50%" alt="Logo before hover" style="display: block; margin: auto;">
 
@@ -436,7 +460,7 @@ Here you can see the section on smaller screens (below width 600 pixels) doesn't
 
 <img src="assets/images/readme-images/who-we-are-no-icons.png" width="40%" alt="Who we are section without icons" style="display: block; margin: auto;">
 
-The navbar unfortunately isn't functional on smaller screens, as the width simply isn't enough. To combat this we have the collapsable burger icon.
+The navbar unfortunately isn't functional on smaller screens, as the width simply isn't enough. To combat this we have the collapsible burger icon.
 
 <img src="assets/images/readme-images/burger.png" width="20%" alt="Burger icon" style="display: block; margin: auto;">
 
@@ -468,7 +492,7 @@ The progress. bars width is a percentage so changes with the width of the screen
 
 <img src="assets/images/readme-images/progress-small.png" width="30%" alt="Progress bar extra height" style="display: block; margin: auto;">
 
-When the links within this section are clicked, it takes the user onto the source informations website.
+When the links within this section are clicked, it takes the user onto the source information's website.
 
 The benefits section doesn't change too much between big and large screens, but the height is responsive and changes with the text wrapping.
 
@@ -500,7 +524,7 @@ The next section is even more complicated. On larger screens, I wanted the tutor
 
 <img src="assets/images/readme-images/tutor-big.png" width="75%" alt="Tutor section, large screen" style="display: block; margin: auto;">
 
-The issue with this is when it is shown on a medium sixed screen (between 600 -1000 pixels wide), the writing extends quite far and so the iframe is stretched, also the second tutor section has two images inside.
+The issue with this is when it is shown on a medium sized screen (between 600 -1000 pixels wide), the writing extends quite far and so the iframe is stretched, also the second tutor section has two images inside.
 
 To fix this I have made the two images view vertically, and pushed the text onto the next line, using the grid-column-area commands.
 
@@ -527,8 +551,6 @@ The form also wont allow information to not be submitted, as all fields have the
 <img src="assets/images/readme-images/sign-error-2.png" width="30%" alt="No data entered, but required" style="display: block; margin: auto;">
 
 ### Validator Testing 
-
-TO DO AT END
 
 - HTML
   - Some errors were found when going through the W3C validator. [W3C validator](https://validator.w3.org/)
@@ -564,7 +586,7 @@ I fixed this by halving the height of the navbar and logo, and everything began 
 
 2). The next issue I ran into was the loading page hero image. The original size was over 5000 pixels in width and 3000 in height, I had to scale it down without losing any of the quality.
 
-I did so by using this [Resizer](https://www.simpleimageresizer.com/upload) to resize the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 69% was the best fit for the webpage.
+I did so by using this [Resizer](https://www.simpleimageresizer.com/upload) to re-size the image, first at 75% its original size, this was too large, it also had gaps either side. I played with the sizes until i found that 69% was the best fit for the webpage.
 
 <img src="assets/images/readme-images/bug-2-1.png" width="20%" alt="Hero image original size" style="display: block; margin: auto;">
 
@@ -628,7 +650,7 @@ I then thought about taking the original image and cropping out a percentage if 
 
 <img src="assets/images/readme-images/bug-9-1.png" width="30%" alt="Progress bar issues" style="display: block; margin: auto;">
 
-Using Dev Tools I could see that there was a magin of 10px that was being added to all four sides, so I changed that to 10px 0, meaning there is no left or right margin, and the width was the same. I then made the url an anchor element, with a link name that included the website name only, without all the extra url info that was not neccessary anymore, rather than wrapping the text for the user to have to scroll through. Lastly I changed the width of the overall container on small screen sizes.
+Using Dev Tools I could see that there was a margin of 10px that was being added to all four sides, so I changed that to 10px 0, meaning there is no left or right margin, and the width was the same. I then made the URL an anchor element, with a link name that included the website name only, without all the extra URL info that was not necessary anymore, rather than wrapping the text for the user to have to scroll through. Lastly I changed the width of the overall container on small screen sizes.
 
 <img src="assets/images/readme-images/bug-9-2.png" width="30%" alt="Progress bar fixed" style="display: block; margin: auto;">
 
@@ -636,7 +658,7 @@ Using Dev Tools I could see that there was a magin of 10px that was being added 
 
 <img src="assets/images/readme-images/bug-10-1.png" width="20%" alt="Margin issue" style="display: block; margin: auto;">
 
-After a lot of unticking of css properties in Dev Tools, I found that a margin-right property was being added to my .row divs. I searched for it in my CSS and I hadn't written it, it was being automatically set. I put margin-right: 0; for all my .row elements and the issue was resolved.
+After a lot of un-ticking of css properties in Dev Tools, I found that a margin-right property was being added to my .row divs. I searched for it in my CSS and I hadn't written it, it was being automatically set. I put margin-right: 0; for all my .row elements and the issue was resolved.
 
 <img src="assets/images/readme-images/bug-10-2.png" width="20%" alt="Code that resolved issue" style="display: block; margin: auto;">
 
@@ -702,6 +724,8 @@ To work on the project code within a local IDE such as VSCode, Python, etc.
 
 7. Press Enter. Your local clone will be created.
 
+The site had no broken links, but the images wouldn't show initially. I had to change the style.css background URL's to include "/project-one-relieve/" and after that they worked correctly.
+
 ## Credits 
 
 ### Content 
@@ -716,7 +740,7 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 - The footer element throughout my site was inspired by the Love Running project, I liked the spacing and colour changing of the social links and it was easy to make it fit in with the project.
 
-- The grid code was taken from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) and I changes the fr and colum values to get the finish I required.
+- The grid code was taken from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) and I changes the fr and column values to get the finish I required.
 
 ### Media
 
@@ -760,3 +784,5 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 [Classes](/assets/images/readme-images/classes-lighthouse.png)
 
 [Sign up](/assets/images/readme-images/signup-lighthouse.png)
+
+This readme.md was spellchecked using the spell checker extension for Chrome.
