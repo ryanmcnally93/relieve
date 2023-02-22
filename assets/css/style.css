@@ -126,7 +126,7 @@ span {
 #hero-image {
   height: 800px;
   width: 100%;
-  background: url("/assets/images/index-hero.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/index-hero.jpeg") no-repeat center center;
   animation: none;
   animation-name: hero-zoom;
   animation-duration: 5s;
@@ -145,7 +145,7 @@ span {
 #benefits-hero-image {
   height: 900px;
   width: 100%;
-  background: url("/assets/images/benefits-hero.jpg") no-repeat center right;
+  background: url("/project-one-relieve/assets/images/benefits-hero.jpg") no-repeat center right;
   animation: none;
   animation-name: hero-zoom;
   animation-duration: 5s;
@@ -180,7 +180,7 @@ span {
 #signup-hero-image {
   height: 900px;
   width: 100%;
-  background: url("/assets/images/signup-hero.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/signup-hero.jpeg") no-repeat center center;
 }
 
 #signup-hero-outer {
@@ -236,7 +236,7 @@ span {
 
 @media (max-width: 600px) {
   #hero-image {
-    background: url("/assets/images/small-index.jpeg") no-repeat center center;
+    background: url("/project-one-relieve/assets/images/small-index.jpeg") no-repeat center center;
   }
 }
 
@@ -472,7 +472,7 @@ h1 {
 .panic-one-image {
   height: 100%;
   width: 100%;
-  background: url("/assets/images/benefits-one.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/benefits-one.jpeg") no-repeat center center;
   border-radius: 25px;
 }
 
@@ -487,7 +487,7 @@ h1 {
 .panic-two-image {
   height: 800px;
   width: 100%;
-  background: url("/assets/images/benefits-two.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/benefits-two.jpeg") no-repeat center center;
   border-radius: 25px;
 }
 
@@ -515,7 +515,7 @@ h1 {
 /*CLASSES SECTION*/
 
 #sessions {
-  background-image: url("/assets/images/big-screen-classes.jpeg");
+  background-image: url("/project-one-relieve/assets/images/big-screen-classes.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -563,7 +563,7 @@ h1 {
     height: 1100px;
   }
   #sessions {
-    background-image: url("/assets/images/small-screen-classes.jpeg");
+    background-image: url("/project-one-relieve/assets/images/small-screen-classes.jpeg");
   }
 }
 
@@ -594,7 +594,7 @@ h1 {
 }
 
 .tutor-one {
-  background: url("/assets/images/tutor-one.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/tutor-one.jpeg") no-repeat center center;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -603,7 +603,7 @@ h1 {
 }
 
 .tutor-two {
-  background: url("/assets/images/tutor-two.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/tutor-two.jpeg") no-repeat center center;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -611,7 +611,7 @@ h1 {
 }
 
 .tutor-three {
-  background: url("/assets/images/tutor-three.jpeg") no-repeat center center;
+  background: url("/project-one-relieve/assets/images/tutor-three.jpeg") no-repeat center center;
   height: 200px;
   width: 200px;
   border-radius: 50%;
