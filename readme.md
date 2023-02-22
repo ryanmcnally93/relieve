@@ -778,7 +778,7 @@ The page describes its source as "Eng, W., Roth, D.A., & Heimberg, R.G. (2001). 
 
 - The footer element throughout my site was inspired by the Love Running project, I liked the spacing and colour changing of the social links and it was easy to make it fit in with the project.
 
-- The grid code was taken from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) and I changes the fr and column values to get the finish I required.
+- The grid code was taken from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) and I changed the fr and column values to get the finish I required.
 
 ### Media
 
