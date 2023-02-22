@@ -646,7 +646,7 @@ There are no bugs unfixed to my knowledge.
 
 ## Deployment
 
-<!-- This project was developed using Gitpod, committed to git and pushed using the built in function within Gitpod.
+This project was developed using Gitpod, committed to git and pushed using the built in function within Gitpod.
 
 To deploy this page, I followed the following steps.
 
@@ -658,25 +658,23 @@ To deploy this page, I followed the following steps.
 
 4. Select Pages from the left hand side menu.
 
-5. Under Source click the drop-down menu labelled None and select Master Branch.
+5. Under Source click the drop-down menu labelled None and select main.
 
-6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+6. On selecting main the page is automatically refreshed, the website is now deployed.
 
 7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 At the time of submitting this project, the Development Branch and Master Branch were identical.
 
--
-
 To clone you will need
 
-1. A GitHub account CREATE HERE.
+1. A [GitHub](https://github.com/) account.
 
-2. The Chrome browser.
+2. The [Chrome](https://www.google.com/intl/en_uk/chrome/) browser.
 
 Then follow the following steps:
 
-1. Install the Gitpod Browser Extension for Chrome
+1. Install the Gitpod Browser Extension for Chrome.
 
 2. After installation, restart the browser.
 
@@ -690,7 +688,7 @@ Then follow the following steps:
 
 To work on the project code within a local IDE such as VSCode, Python, etc.
 
-1. Follow this link to the Project GitHub repository.
+1. Follow [this link](https://github.com/ryanmcnally93/project-one-relieve) to the Project GitHub repository.
 
 2. Under the repository name, click "Clone the download".
 
@@ -703,8 +701,6 @@ To work on the project code within a local IDE such as VSCode, Python, etc.
 6. Type git clone, and then paste the URL you copied in Step 3.
 
 7. Press Enter. Your local clone will be created.
-
-The live link is HERE. -->
 
 ## Credits 
 
