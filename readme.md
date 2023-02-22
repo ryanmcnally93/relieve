@@ -646,17 +646,17 @@ There are no bugs unfixed to my knowledge.
 
 ## Deployment
 
-This project was developed using Gitpod, committed to git and pushed using the built in function within Gitpod.
+<!-- This project was developed using Gitpod, committed to git and pushed using the built in function within Gitpod.
 
 To deploy this page, I followed the following steps.
 
 1. Log into GitHub.
 
-2. Select projectone? from list of repositories.
+2. Select project-one-relieve from list of repositories.
 
 3. From the top menu items, select settings.
 
-4. Scroll down to the GitHub Pages Section.
+4. Select Pages from the left hand side menu.
 
 5. Under Source click the drop-down menu labelled None and select Master Branch.
 
@@ -666,15 +666,45 @@ To deploy this page, I followed the following steps.
 
 At the time of submitting this project, the Development Branch and Master Branch were identical.
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+-
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+To clone you will need
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html -->
+1. A GitHub account CREATE HERE.
 
+2. The Chrome browser.
+
+Then follow the following steps:
+
+1. Install the Gitpod Browser Extension for Chrome
+
+2. After installation, restart the browser.
+
+3. Log into Gitpod with your account.
+
+4. Navigate to the Project GitHub repository.
+
+5. Click the green Gitpod button in the top right corner of the repository.
+
+6. A new Gitpod workplace will created from the code in github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Python, etc.
+
+1. Follow this link to the Project GitHub repository.
+
+2. Under the repository name, click "Clone the download".
+
+3. In the clone with HTTPs section, copy the clone URL for the repository.
+
+4. In your local IDE open the terminal.
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+7. Press Enter. Your local clone will be created.
+
+The live link is HERE. -->
 
 ## Credits 
 
