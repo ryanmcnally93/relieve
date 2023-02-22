@@ -133,53 +133,91 @@ These wireframes were created using Balsamiq:
 
 ### Q and A of Potential Users
 
+I spoke to three different potential users regarding the website. I showed them what I had made and asked them the following questions:
+
 #### Q1 What makes a good website experience?
 
 Person with Depression:
 
+- "When a website is easy to use and navigate through different pages."
+
 Person with Anxiety:
 
+- "Familiarity within groups on social media sites. To be able to click on a link and find the information you need easily."
+
 Person with relative/friend of someone who struggles:
+
+- "A good website experience for someone not tech savvy like me is something self explanatory and easy to navigate, it's being able to know where a link is and what it does."
 
 #### Q2 What information are you looking for?
 
 Person with Depression:
 
+- "I would be interested in the classes information, and would look for where the classes are."
+
 Person with Anxiety:
 
+- "Group activities that can be experienced online as well as in person if I am unable to leave the house."
+
 Person with relative/friend of someone who struggles:
+
+- "I would be looking for ways to help my friend manage their symptoms and how to find professionals to offer help and advice."
 
 #### Q3 Where, on a site, do you visit first?
 
 Person with Depression:
 
+- "I like to visit each page individually and read through, then go to the page that suits my needs most."
+
 Person with Anxiety:
 
+- "Social media pages to see how many followers the business has."
+
 Person with relative/friend of someone who struggles:
+
+- "when I use a website the first place I use is the menu option to see the list of everything on the site and what I need to look for."
 
 #### Q4 Would you use this?
 
 Person with Depression:
 
+- "Yes."
+
 Person with Anxiety:
 
+- "Yes."
+
 Person with relative/friend of someone who struggles:
+
+- "Yes."
 
 #### Q5 Why?
 
 Person with Depression:
 
+- "I would use it to book and find the location of classes. I'd also sign up for the newsletter for up to date information, hints and tips."
+
 Person with Anxiety:
 
+- "If the website was available then I would use it and recommend it to friends and family who I know struggle, looking for helplines and other people who have similar feelings."
+
 Person with relative/friend of someone who struggles:
+
+- "I would use the site to get information on anxiety and tips on how to help people in the case I ever saw somebody having a panic attack and needing assistance."
 
 #### Q6 What changes can I make?
 
 Person with Depression:
 
+- "You could add contact information for mental health organisations such as Samaritans or Mind in the 'if you experience a panic attack' section."
+
 Person with Anxiety:
 
+- "Have more interaction on the site for users to get to know each other."
+
 Person with relative/friend of someone who struggles:
+
+- "A change to make to the website would be maybe including an alternative display option for example a dark screen alternative for people with colour blindness or an Audio Description choice for visually impared so that when you hover over an icon it says out loud what you are about to click."
 
 ### Competitor Review
 
