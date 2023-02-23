@@ -175,7 +175,7 @@ Person with Anxiety:
 
 Person with relative/friend of someone who struggles:
 
-- "when I use a website the first place I use is the menu option to see the list of everything on the site and what I need to look for."
+- "When I use a website the first place I use is the menu option to see the list of everything on the site and what I need to look for."
 
 #### Q4 Would you use this?
 
