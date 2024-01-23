@@ -712,7 +712,7 @@ To deploy this page, I followed the following steps.
 
 1. Log into GitHub.
 
-2. Select project-one-relieve from list of repositories.
+2. Select relieve from list of repositories.
 
 3. From the top menu items, select settings.
 
@@ -748,7 +748,7 @@ Then follow the following steps:
 
 To work on the project code within a local IDE such as VSCode, Python, etc.
 
-1. Follow [this link](https://github.com/ryanmcnally93/project-one-relieve) to the Project GitHub repository.
+1. Follow [this link](https://github.com/ryanmcnally93/relieve) to the Project GitHub repository.
 
 2. Under the repository name, click "Clone the download".
 
@@ -762,7 +762,7 @@ To work on the project code within a local IDE such as VSCode, Python, etc.
 
 7. Press Enter. Your local clone will be created.
 
-The site had no broken links, but the images wouldn't show initially. I had to change the style.css background URL's to include "/project-one-relieve/" and after that they worked correctly.
+The site had no broken links, but the images wouldn't show initially. I had to change the style.css background URL's to include "/relieve/" and after that they worked correctly.
 
 ## Credits 
 
